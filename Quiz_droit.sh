@@ -1186,6 +1186,37 @@ Cela signifie que les normes internationales (traités, conventions, droit de l�
 indices=($(seq 0 $((${#questions[@]} - 1))))
 shuffled_indices=($(printf "%s\n" "${indices[@]}" | shuf))
 
+echo "########################################################################################################################################################################################"
+echo ""
+echo "  Bienvenue sur ce programme spécialement conçu pour réviser et parfaire vos connaissances en Droit du Travail (privé) :"
+echo "     >> Dates importantes"
+echo "     >> Hiérarchie des normes"
+echo "     >> Bases institutionnelles et principes fondamentaux"
+echo ""
+echo "========================================================================================================================================================================================"
+echo "  Programme : Quiz.sh --  QCM interactif sur le Droit du Travail"
+echo "  Auteur   : Mickael Coquerelle --  Affiliation : Université de Montpellier - CHU de Nîmes -- Version   : 1.0"
+echo "  Licence   : Licence personnelle de diffusion non modifiable"
+echo "---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------"
+echo "  CONDITIONS D’UTILISATION :"
+echo "  Ce programme est protégé par le Code de la Propriété Intellectuelle, notamment l’article L122-4 qui dispose :"
+echo "  « Toute représentation ou reproduction intégrale ou partielle faite sans le consentement de l’auteur est illicite. »"
+echo ""
+echo "  >> Partage autorisé UNIQUEMENT sous réserve :"
+echo "     - de citer clairement le nom de l’auteur ;"
+echo "     - de ne pas modifier le contenu du programme sans autorisation"
+echo "       écrite préalable de l’auteur ;"
+echo "     - de conserver la présente licence et les mentions légales."
+echo ""
+echo "  Toute violation de ces conditions constitue une contrefaçon au sens des articles L335-2 et suivants du Code de la Propriété Intellectuelle."
+echo ""
+echo "  Citation suggérée : « Mickael Coquerelle (Université de Montpellier - CHU de Nîmes),"
+echo "    QCMployé.sh – QCM de Droit du Travail (version 1.0), 2025 »"
+echo "----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------"
+echo "   « Nul n’est censé ignorer la loi… sauf à la question 12. »"
+echo "----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------"
+echo "###################################e#####################################################################################################################################################"
+
 # -----------------------------
 # Boucle principale
 # -----------------------------
