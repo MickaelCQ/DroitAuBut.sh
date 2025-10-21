@@ -74,7 +74,7 @@ B) 24 h
 C) 48 h
 D) 1 semaine"
 
-"12. Quel délai de prévenance doit respecter un salarié si présent plus de 8 jours POUR CDD ?
+"12. Quel délai de prévenance (hors période d'essai) doit respecter un salarié si présent plus de 8 jours POUR CDD ?
 A) 24 h
 B) 48 h
 C) 72 h
@@ -830,6 +830,83 @@ B) Le traité international
 C) Le règlement européen uniquement
 D) La jurisprudence du Conseil d’État"
 
+"138.Selon le Préambule de la Constitution de 1946, quelle affirmation est vraie concernant les droits des femmes ?
+A) Elles n’ont pas le droit de vote
+B) Elles ont des droits égaux à ceux des hommes dans tous les domaines
+C) Elles peuvent travailler dans la fonction publique
+D) Elles peuvent pas bénéficier de la protection sociale"
+
+"139. Le Préambule de la Constitution de 1946 reconnaît :
+A) Le droit de vote aux étrangers
+B) Le droit d’asile
+C) La liberté de porter des armes
+D) L’inviolabilité des entreprises"
+
+"140.Le Préambule de la constitution de 1946 affirme que :
+A) Le travail est un devoir et l’accès à l’emploi un droit
+B) Le travail est facultatif et non garanti
+C) Seules certaines catégories de citoyens ont droit au travail
+D) Les employeurs peuvent choisir librement à qui ils donnent un emploi"
+
+"141.Selon le Préambule de la Constitution française de 1946, quelles affirmations sont fausses ?
+A) La liberté syndicale est reconnue
+B) Le droit de grève est proclamé pour tous les travailleurs
+C) La suppression du droit de grève est autorisée
+D) Les syndicats patronaux ont priorité sur les syndicats de salariés"
+
+"142. Licenciement pour motif personnel : Un salarié peut-il être licencié pour insuffisance professionnelle ?
+A) Oui, mais uniquement après avertissement écrit
+B) Oui, c’est un motif non disciplinaire
+C) Non, ce n’est jamais un motif valable
+D) Oui, mais uniquement pour faute grave"
+
+"143. L’inaptitude physique d’un salarié peut-elle justifier un licenciement ?
+A) Oui, mais uniquement après tentative de reclassement
+B) Non, jamais
+C) Oui, sans autre formalité
+D) Oui, mais uniquement pour faute grave"
+
+"144. Une faute lourde correspond :
+A) A une faute qui rend impossible le maintien du salarié dans l’entreprise
+B) Une intention de nuire
+C) A un manquement mineur aux règles internes
+D) A une insuffisance professionnelle"
+
+"145. Un licenciement économique est motivé par :
+A) La suppression ou transformation d’un poste
+B) L’insuffisance professionnelle du salarié
+C) Une faute grave
+D) La grève du salarié"
+
+"146.Lors d’un licenciement économique, quels critères d’ordre ne peuvent pas être appliqués ?
+A) Ancienneté
+B) Charges de famille
+C) Qualités professionnelles et caractéristiques sociales
+D) Lieu de naissance"
+
+"147.L’ancienneté peut-elle être un critère légal d’ordre des licenciements ?
+A) Oui, c’est le critère privilégié par la loi
+B) Non, interdit
+C) Oui, mais seulement si l’employeur le décide arbitrairement
+D) Oui, mais uniquement pour les CDI"
+
+"148.Le licenciement économique peut-il être contesté si un critère discriminatoire est appliqué ?
+A) Non, l’employeur décide librement
+B) Oui, le juge peut annuler le licenciement
+C) Non, sauf pour faute grave
+D) Oui, mais seulement si le salarié a moins d’un an d’ancienneté"
+
+"149. Forme du contrat, quels sont les réponses fausses:
+A) Ecrit obligatoire pour les CDI temps plein
+B) Ecrit facultatif pour les CDI à temps partiel
+C) Ecrit facultatif pour les CDD à temps plein
+D) Ecrit facultatif pour les CDD à temps partiel"
+
+"150. Dans le licenciement pour motif personnel et disciplinaire , une faute lourde correspond, quels sont les mauvaises réponses :
+A) À une faute qui rend impossible le maintien du salarié dans l’entreprise
+B) À une faute simple
+C) À un manquement mineur aux règles internes
+D) À une insuffisance professionnelle"
 )
 
 # -----------------------------
@@ -873,7 +950,7 @@ answers=(
 "C" #35
 "B" #36
 "D" #37
-"B" #38
+"D" #38
 "D" #39
 "B" #40
 "BC" #41
@@ -973,7 +1050,19 @@ answers=(
 "D" #135
 "B" #136	
 "B" #137
-)
+"B" #138
+"B" #139
+"A" #140
+"CD" #141
+"B" #142
+"A" #143
+"AB" #144
+"A" #145
+"D" #146
+"A" #147
+"B" #148
+"ACD" #149
+"BCD" #150
 
 # -----------------------------
 # 3️ Explications
@@ -984,9 +1073,10 @@ explanations=(
 "Un CDI à temps plein n'exige pas d'écrit selon le Code du travail."
 "Si un CDD n'est pas signé par les deux parties, il devient automatiquement un CDI."
 "La durée légale du travail est de 35 heures hebdomadaires."
-"La durée minimale d’un temps partiel est de 24 heures hebdomadaires."
-"La mobilité nécessite une clause écrite et précise selon le code du travail."
-"Explication détaillée :
+"6.La durée minimale d’un temps partiel est de 24 heures hebdomadaires : Article L3123-27 :
+« La durée minimale hebdomadaire de travail d'un salarié à temps partiel est fixée à vingt-quatre heures par semaine, ou, le cas échéant, à son équivalent mensuel. »"
+"7.La mobilité nécessite une clause écrite et précise selon le code du travail."
+"8.Explication détaillée :
 
 Écrite :Pour être valable, la clause de non-concurrence doit obligatoirement figurer par écrit dans le contrat de travail ou dans un avenant. Une clause orale est juridiquement nulle, car elle ne permet pas de prouver les conditions et l’existence de l’engagement.
 
@@ -998,7 +1088,7 @@ Contrepartie : financière obligatoire.Pour les salariés, la clause doit prévo
 Sans cette contrepartie, la clause est considérée comme nulle. Ne concerne pas tous les salariés de manière identique.Elle peut être adaptée selon le poste ou le niveau de responsabilité.
 Par exemple, un salarié ayant accès à des informations sensibles peut se voir imposer une clause stricte, tandis qu’un salarié avec peu d’informations confidentielles pourrait ne pas en avoir."
 
-"La visite médicale pour un CDI doit avoir lieu dans les 3 mois de l’embauche."
+"9.La visite médicale pour un CDI doit avoir lieu dans les 3 mois de l’embauche."
 "10.a période d’essai maximale pour un cadre est de 4 mois."
 "11.Le délai de prévenance employeur < 8 jours est de 24 h."
 "12.Le délai de prévenance salarié > 8 jours est aucun pour CDD."
@@ -1031,7 +1121,19 @@ Industrie agroalimentaire : conserveries, conditionnement de fruits et légumes.
 "35.La période d’essai d’un agent de maîtrise est de 3 mois."
 "36.La période d’essai d’un technicien est de 3 mois."
 "37.La clause de fin d’un CDD doit préciser soit une date de fin exacte (terme précis), soit l’événement déclencheur de la fin avec une durée minimale garantie (terme imprécis). Elle mentionne le motif du recours, la durée et le poste occupé, conformément à l’article L1242-12 du Code du travail. À la fin du contrat, l’employeur remet le solde de tout compte, le certificat de travail et l’attestation France Travail, avec ou sans prime de précarité selon le type de CDD"
-"38.La requalification d’un CDD en CDI entraîne indemnité et préavis selon le cas."
+"38.La requalification d’un CDD en CDI entraîne indemnité et préavis selon le cas:
+Lorsque un CDD est requalifié en CDI, les conséquences dépendent du contexte de la requalification et des décisions du juge. Plusieurs effets peuvent se cumuler :
+
+Indemnité de requalification :
+Le juge peut accorder au salarié une indemnité compensatrice si le CDD n’était pas conforme à la loi (non-respect des conditions de recours, absence de motifs précis, etc.).
+Cette indemnité n’a pas de montant fixe légal ; elle est évaluée au cas par cas. Références : Article L1245-2 du Code du travail.
+
+Indemnité de licenciement:
+Une fois le CDD requalifié en CDI, le salarié est considéré comme un salarié en CDI. Si le CDI est ensuite rompu (par licenciement ou rupture conventionnelle), le salarié bénéficie de l’indemnité de licenciement prévue pour les CDI. Cela ne signifie pas que l’indemnité est versée immédiatement à la requalification, mais le droit en découle directement du statut CDI.
+
+Préavis:
+Le salarié dont le contrat a été requalifié en CDI a droit au préavis légal en cas de rupture ultérieure. Le montant et la durée dépendent de l’ancienneté et des conventions collectives.
+Comme pour l’indemnité de licenciement, le préavis ne s’applique qu’en cas de rupture, mais il résulte automatiquement du passage au CDI."
 "39.CDDs arrivés à terme = indemnité, indemnité licenciement et CP sur préavis."
 "40.Durée maximale d’un CDD d’usage selon liste D.1242-1."
 "41.L’accord écrit est nécessaire pour signature, PE et rupture conventionnelle."
@@ -1177,7 +1279,35 @@ Depuis 2010, il peut aussi être saisi après promulgation par la procédure de 
 "137.D’après l’article 55 de la Constitution,
 Les traités ou accords internationaux régulièrement ratifiés ou approuvés ont une autorité supérieure à celle des lois, dès leur publication, à condition d’être appliqués par l’autre partie.
 Cela signifie que les normes internationales (traités, conventions, droit de l’Union européenne) priment sur les lois nationales, mais restent subordonnées à la Constitution."
-
+"138.Le Préambule proclame la garantie de l’égalité des droits entre femmes et hommes dans tous les domaines."
+"139. Le droit d’asile est explicitement mentionné comme un principe fondamental nécessaire à l’époque."
+"140.Nul ne peut être lésé dans son travail ou son emploi pour ses origines, opinions ou croyances."
+"141.Le Préambule de la Constitution de 1946 énonce plusieurs principes fondamentaux à valeur constitutionnelle en matière sociale :
+Liberté syndicale (A) :
+Chaque salarié a le droit de se regrouper librement au sein d’un syndicat.
+Cette liberté protège à la fois la création et l’adhésion aux syndicats, et interdit toute discrimination ou sanction liée à l’appartenance syndicale.
+Elle constitue un droit fondamental protégé par le bloc de constitutionnalité et le Code du travail (articles L2141-1 et suivants).
+Droit de grève (B) :
+Tous les travailleurs peuvent exercer ce droit pour défendre leurs intérêts professionnels.
+La Constitution de 1946 affirme que ce droit est fondamental et nécessaire à l’équilibre des relations professionnelles, sans être limité aux seules fonctions publiques.
+Le droit de grève est encadré par le Code du travail pour garantir un exercice pacifique et proportionné.
+Les réponses C et D sont fausses :
+La Constitution ne prévoit pas la suppression du droit de grève.Il n’existe aucune priorité légale pour les syndicats patronaux sur les syndicats de salariés."
+"142. L’insuffisance professionnelle est un motif non disciplinaire de licenciement. La jurisprudence reconnaît qu’un salarié peut être licencié pour manque de compétence, même sans faute (C. trav., art. L1232-1)."
+"143.Selon art. L1226-2 du Code du travail, le licenciement pour inaptitude n’est possible que si le reclassement dans l’entreprise est impossible. L’employeur doit respecter cette obligation avant de licencier."
+"144.La faute lourde implique une intention de nuire à l’entreprise et justifie un licenciement sans préavis ni indemnité (C. trav., art. L1234-9)."
+"145.Selon art. L1233-3 du Code du travail, le licenciement économique survient pour motif économique : suppression ou transformation d’emploi, difficultés économiques ou mutation technologique."
+"146.Art. L1233-5 C. trav. prévoit que l’employeur peut utiliser des critères pour fixer l’ordre des licenciements, sous réserve qu’ils soient objectifs, non discriminatoires et proportionnés."
+"147.L’ancienneté est explicitement mentionnée dans art. L1233-5 comme critère prioritaire pour déterminer l’ordre des licenciements."
+"148.Le licenciement économique est annulable si les critères sont discriminatoires (origine, sexe, religion) selon art. L1132-1."
+"149. Règles légales sur la forme du contrat (Code du travail)
+CDI à temps plein : Écrit non obligatoire.
+Un CDI peut être verbal si c’est un CDI à temps plein (C. trav., art. L1221-1). 
+CDI à temps partiel :Écrit obligatoire.
+L’écrit doit préciser la durée du travail, la répartition des heures, etc. (C. trav., art. L3123-4). :CDD
+Écrit obligatoire, quelle que soit la durée du contrat ou le temps de travail (C. trav., art. L1242-2).
+L’écrit doit mentionner la raison du recours au CDD, la durée, le poste, etc.. "
+"150. La faute lourde implique une intention de nuire à l’entreprise et justifie un licenciement sans préavis ni indemnité (C. trav., art. L1234-9)."
 )
 
 # -----------------------------
@@ -1215,7 +1345,8 @@ echo "    QCMployé.sh – QCM de Droit du Travail (version 1.0), 2025 »"
 echo "----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------"
 echo "   « Nul n’est censé ignorer la loi… sauf à la question 12. »"
 echo "----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------"
-echo "###################################e#####################################################################################################################################################"
+echo " Ecrire vos réponses sans espace exemple : B, ACD ou acd et appuyer sur la toucher entrée"
+echo "#########################################################################################################################################################################################"
 
 # -----------------------------
 # Boucle principale
@@ -1231,7 +1362,7 @@ for i in "${shuffled_indices[@]}"; do
     echo "Question $question_num :"
     echo "${questions[$i]}"
     read -p "Votre réponse (A/B/C/D) : " user_answer
-    user_answer=$(echo "$user_answer" | tr 'a-z' 'A-Z')
+    user_answer=$(echo "$user_answer" | tr 'a-z' 'A-Z') #Gestion de la casse
 
     if [[ "$user_answer" == "${answers[$i]}" ]]; then
         echo " Correct !"
@@ -1240,14 +1371,14 @@ for i in "${shuffled_indices[@]}"; do
     else
         echo "Incorrect ! La bonne réponse était ${answers[$i]}"
         ((bad++))
-        score=$(echo "$score - 1.5" | bc)
-        # Empêche score négatif
+        score=$(echo "$score - 0.5" | bc)
+        # Empêche score négatif(ergonomie)
         score=$(echo "if ($score < 0) 0 else $score" | bc)
     fi
 
     echo "Explication : ${explanations[$i]}"
 
-    # Affichage de progression toutes les 10 questions
+    # Affichage d'une progression toutes les 10 questions pour l'utilisateur
     if (( question_num % 10 == 0 || question_num == total )); then
         questions_passees=$((good + bad))
         pourcentage_total=$(echo "scale=2; ($score / $total) * 100" | bc)
