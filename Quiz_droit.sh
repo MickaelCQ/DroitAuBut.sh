@@ -500,7 +500,7 @@ B) 2 semaines
 C) 0 jour
 D) 1 mois"
 
-"83. Un salarié en CDD peut-il bénéficier d’indemnité de précarité si le contrat est rompu pour faute grave de l’employeur ?
+"83. Un salarié en CDD peut-il bénéficier d’indemnité de précarité si le contrat est rompu pour faute grave par l’employeur ?
 A) Oui, toujours
 B) Non, jamais
 C) Oui, uniquement si durée > 6 mois
@@ -907,6 +907,90 @@ A) À une faute qui rend impossible le maintien du salarié dans l’entreprise
 B) À une faute simple
 C) À un manquement mineur aux règles internes
 D) À une insuffisance professionnelle"
+
+"151.La faute grave se distingue de la faute lourde par :
+A) L’absence de préavis
+B) Le maintien de l'indémnité de préavis et des indemnités
+C) La suppression de tout salaire restant
+D) La perte de tous les droits acquis"
+
+"152.Une faute légère n'entraîne pas :
+A) Licenciement immédiat
+B) Simple sanction disciplinaire, pas forcément un licenciement
+C) Faute lourde
+D) Faute grave"
+
+"153.Un licenciement économique est motivé par :
+A) La suppression ou transformation d’un poste
+B) L’insuffisance professionnelle du salarié
+C) On dois appliquer des critères d'ordres ( qualités professionnelles, ancienneté, charges de familles, caractéristiques sociales)
+D) La grève du salarié"
+
+"154.L’ancienneté peut-elle être un critère légal d’ordre des licenciements ?
+A) Oui, c’est le critère privilégié par la loi
+B) Non, interdit
+C) Oui, mais seulement si l’employeur le décide arbitrairement
+D) Oui, mais uniquement pour les CDI"
+
+"155. Quelles réponses sont fausses : l’insuffisance professionnelle :
+A) Est un licenciement pour motif personnel
+B) Est un licenciement disciplinaire
+C) S'applique sur des critères d'ordre
+D) Est un licenciement non disciplinaire"
+
+"156.Parmi les affirmations suivantes concernant l’inaptitude et l’insuffisance professionnelle, laquelle est correcte ?
+A) L’inaptitude physique peut justifier un licenciement sans recherche de reclassement.
+B) L’insuffisance professionnelle est un motif disciplininaire justifiant un licenciement.
+C) Le licenciement pour inaptitude nécessite d’abord une proposition de reclassement dans l’entreprise.
+D) L’insuffisance professionnelle ne peut jamais justifier un licenciement."
+
+"157.Une inaptitude physique constatée par le médecin du travail n'entraîne pas :
+A) Obligation de reclassement avant licenciement
+B) Licenciement immédiat
+C) Faute grave du salarié
+D) Suspension du contrat pour durée indéterminée"
+
+"158.Les caractéristiques sociales comme l’âge ou le handicap peuvent-elles être utilisées comme critère d’ordre des licenciements ?
+A) Oui, toujours
+B) Non, interdit
+C) Oui, sous réserve de non-discrimination
+D) Oui, mais uniquement pour les CDI"
+
+"159.L’employeur doit-il informer et consulter le comité social et économique avant un licenciement économique collectif ?
+A) Oui, obligatoire
+B) Non, facultatif
+C) Oui, mais uniquement pour licenciements disciplinaires
+D) Non, sauf pour moins de 5 salariés"
+
+"160.Lors d’un licenciement économique, l’employeur peut-il fixer arbitrairement les critères d’ordre ?
+A) Oui, librement
+B) Non, les critères doivent être objectifs, mesurables et non discriminatoires
+C) Oui, mais uniquement si le salarié a moins de 2 ans d’ancienneté
+D) Non, sauf pour la grève du salarié"
+
+"161.L’indemnité légale de licenciement économique :
+A) Est facultative
+B) Est obligatoire selon ancienneté et salaire
+C) Est supprimée si le salarié refuse le reclassement
+D) Est calculée uniquement sur salaire fixe"
+
+"162.Le reclassement est factultatif en cas de licenciement économique :
+A) Oui, pour tout salarié
+B) Non, uniquement si l’emploi , le poste n'existe pas dans l’entreprise ou le groupe
+C) Non, jamais
+D) Oui, mais seulement pour les CDI"
+
+"163.Le plan de sauvegarde de l’emploi (PSE) :
+A) N’est obligatoire que pour 2 licenciements
+B) Est obligatoire dès 10 licenciements dans une entreprise de plus de 50 salariés
+C) Est toujours facultatif
+D) Est obligatoire dès 5 licenciements dans une entreprise de plus de 50 salariés"
+
+"164. Dans le cadre d'une procédure de licenciement: le délai minimum entre la convocation à l’entretien et l’entretien lui-même est de :
+A) 3 jours ouvrables
+B) 5 jours ouvrables
+C) 7 jours calendaires
+D) 15 jours"
 )
 
 # -----------------------------
@@ -1063,36 +1147,35 @@ answers=(
 "B" #148
 "ACD" #149
 "BCD" #150
+"AB" #151
+"ACD" #152
+"AC" #153
+"A" #154
+"BC" #155
+"C" #156
+"BCD" #157
+"C" #158 
+"A" #159
+"B" #160
+"B" #161
+"B" #162
+"B" #163
+"B" #164
+)
 
-# -----------------------------
-# 3️ Explications
-# -----------------------------
-explanations=(
-"Le CDI est le contrat de droit commun, contrairement au CDD qui est dérogatoire."
-"Tous ces critères (Prestation, Rémunération, Lien de subordination) définissent un contrat de travail."
-"Un CDI à temps plein n'exige pas d'écrit selon le Code du travail."
-"Si un CDD n'est pas signé par les deux parties, il devient automatiquement un CDI."
-"La durée légale du travail est de 35 heures hebdomadaires."
-"6.La durée minimale d’un temps partiel est de 24 heures hebdomadaires : Article L3123-27 :
-« La durée minimale hebdomadaire de travail d'un salarié à temps partiel est fixée à vingt-quatre heures par semaine, ou, le cas échéant, à son équivalent mensuel. »"
+explanations=("1.Le CDI est le contrat de droit commun, contrairement au CDD qui est dérogatoire."
+"2.Tous ces critères (Prestation, Rémunération, Lien de subordination) définissent un contrat de travail."
+"3.Un CDI à temps plein n'exige pas d'écrit selon le Code du travail."
+"4.Si un CDD n'est pas signé par les deux parties, il devient automatiquement un CDI."
+"5.La durée légale du travail est de 35 heures hebdomadaires."
+"6.La durée minimale d’un temps partiel est de 24 heures hebdomadaires : Article L3123-27 : La durée minimale hebdomadaire de travail d'un salarié à temps partiel est fixée à vingt-quatre heures par semaine, ou, le cas échéant, à son équivalent mensuel."
 "7.La mobilité nécessite une clause écrite et précise selon le code du travail."
-"8.Explication détaillée :
-
-Écrite :Pour être valable, la clause de non-concurrence doit obligatoirement figurer par écrit dans le contrat de travail ou dans un avenant. Une clause orale est juridiquement nulle, car elle ne permet pas de prouver les conditions et l’existence de l’engagement.
-
-Justifiée  :par l’intérêt de l’entreprise.La clause ne peut pas être arbitraire : elle doit protéger les intérêts légitimes de l’employeur, comme la protection des secrets d’affaires, de la clientèle ou du savoir-faire. Une clause disproportionnée ou non nécessaire peut être annulée par le juge.
-
-Proportionnée :dans le temps et l’espace. Elle doit être limitée géographiquement (secteur, région) et dans le temps (durée maximale généralement de 6 à 24 mois selon le type de poste et les conventions collectives). Une clause trop longue ou trop large peut être invalidée par le juge.
-
-Contrepartie : financière obligatoire.Pour les salariés, la clause doit prévoir une compensation financière pendant la période où le salarié est empêché de travailler pour un concurrent.
-Sans cette contrepartie, la clause est considérée comme nulle. Ne concerne pas tous les salariés de manière identique.Elle peut être adaptée selon le poste ou le niveau de responsabilité.
-Par exemple, un salarié ayant accès à des informations sensibles peut se voir imposer une clause stricte, tandis qu’un salarié avec peu d’informations confidentielles pourrait ne pas en avoir."
-
+"8.Explication détaillée : Écrite : Pour être valable, la clause de non-concurrence doit obligatoirement figurer par écrit dans le contrat de travail ou dans un avenant. Une clause orale est juridiquement nulle. Justifiée : par l’intérêt de l’entreprise. La clause doit protéger les intérêts légitimes de l’employeur, comme les secrets d’affaires, la clientèle ou le savoir-faire. Proportionnée : dans le temps et l’espace (limitation géographique et durée maximale généralement 6-24 mois). Contrepartie : financière obligatoire."
 "9.La visite médicale pour un CDI doit avoir lieu dans les 3 mois de l’embauche."
-"10.a période d’essai maximale pour un cadre est de 4 mois."
+"10.La période d’essai maximale pour un cadre est de 4 mois."
 "11.Le délai de prévenance employeur < 8 jours est de 24 h."
 "12.Le délai de prévenance salarié > 8 jours est aucun pour CDD."
-"13.Le renouvellement de la période d’essai doit être prévu par convention collective(loi modernisation 2008) et clause de renouvellement dans le contrat de travail. Durée au plus égale à la durée initiale."
+"13.Le renouvellement de la période d’essai doit être prévu par convention collective et clause de renouvellement dans le contrat de travail. Durée au plus égale à la durée initiale."
 "14.La durée maximale d’un CDD pour accroissement temporaire est de 18 mois."
 "15.La durée maximale d’un CDD pour remplacement d’un salarié parti définitivement est de 24 mois."
 "16.La durée maximale pour travaux urgents de sécurité est de 9 mois."
@@ -1107,33 +1190,17 @@ Par exemple, un salarié ayant accès à des informations sensibles peut se voir
 "25.Pour un salarié à temps partiel, toutes ces clauses sont obligatoires."
 "26.La clause de non-concurrence doit inclure limite temporelle, géographique et contrepartie financière."
 "27.La visite médicale avant fin de PE est obligatoire pour un CDD."
-"28.Le contrat saisonnier est un CDD. Un contrat saisonnier est un CDD particulier, conclu pour accomplir des tâches qui reviennent chaque année à des dates plus ou moins fixes, en fonction des rythmes des saisons ou de l’activité économique. Référence : Article L1242-2, 3° du Code du travail
-Exemples typiques d’emplois saisonniers
-Agriculture : vendanges, récoltes, taille, semis…
-Tourisme : hôtels, restaurants, stations de ski, campings, parcs d’attraction…
-Industrie agroalimentaire : conserveries, conditionnement de fruits et légumes."
+"28.Le contrat saisonnier est un CDD particulier, conclu pour accomplir des tâches qui reviennent chaque année à des dates fixes. Référence : Article L1242-2, 3° du Code du travail. Exemples : Agriculture (vendanges, récoltes, taille, semis…), Tourisme (hôtels, restaurants, stations de ski, campings, parcs d’attraction…), Industrie agroalimentaire (conserveries, conditionnement fruits/légumes)."
 "29.Le lien de subordination désigne la direction par l’employeur."
 "30.La durée légale mensuelle est de 151,67 heures."
-"31.Le remplacement pour maladie,maternité, formation  peut aller jusqu’à 18 mois."
+"31.Le remplacement pour maladie, maternité, formation peut aller jusqu’à 18 mois."
 "32.CDI temps plein n’exige pas obligatoirement de signature écrite."
 "33.Rupture anticipée non justifiée = paiement des salaires jusqu’au terme."
 "34.La période d’essai d’un ouvrier est de 2 mois."
 "35.La période d’essai d’un agent de maîtrise est de 3 mois."
 "36.La période d’essai d’un technicien est de 3 mois."
-"37.La clause de fin d’un CDD doit préciser soit une date de fin exacte (terme précis), soit l’événement déclencheur de la fin avec une durée minimale garantie (terme imprécis). Elle mentionne le motif du recours, la durée et le poste occupé, conformément à l’article L1242-12 du Code du travail. À la fin du contrat, l’employeur remet le solde de tout compte, le certificat de travail et l’attestation France Travail, avec ou sans prime de précarité selon le type de CDD"
-"38.La requalification d’un CDD en CDI entraîne indemnité et préavis selon le cas:
-Lorsque un CDD est requalifié en CDI, les conséquences dépendent du contexte de la requalification et des décisions du juge. Plusieurs effets peuvent se cumuler :
-
-Indemnité de requalification :
-Le juge peut accorder au salarié une indemnité compensatrice si le CDD n’était pas conforme à la loi (non-respect des conditions de recours, absence de motifs précis, etc.).
-Cette indemnité n’a pas de montant fixe légal ; elle est évaluée au cas par cas. Références : Article L1245-2 du Code du travail.
-
-Indemnité de licenciement:
-Une fois le CDD requalifié en CDI, le salarié est considéré comme un salarié en CDI. Si le CDI est ensuite rompu (par licenciement ou rupture conventionnelle), le salarié bénéficie de l’indemnité de licenciement prévue pour les CDI. Cela ne signifie pas que l’indemnité est versée immédiatement à la requalification, mais le droit en découle directement du statut CDI.
-
-Préavis:
-Le salarié dont le contrat a été requalifié en CDI a droit au préavis légal en cas de rupture ultérieure. Le montant et la durée dépendent de l’ancienneté et des conventions collectives.
-Comme pour l’indemnité de licenciement, le préavis ne s’applique qu’en cas de rupture, mais il résulte automatiquement du passage au CDI."
+"37.La clause de fin d’un CDD doit préciser soit une date de fin exacte (terme précis), soit l’événement déclencheur de la fin avec durée minimale garantie (terme imprécis). Elle mentionne le motif du recours, la durée et le poste occupé (Art. L1242-12). À la fin du contrat, l’employeur remet solde de tout compte, certificat de travail et attestation France Travail, avec ou sans prime de précarité selon type de CDD."
+"38.La requalification d’un CDD en CDI entraîne indemnité et préavis selon le cas : Indemnité de requalification : Le juge peut accorder au salarié une indemnité compensatrice si le CDD n’était pas conforme à la loi. Indemnité de licenciement : Une fois le CDD requalifié, le salarié bénéficie de l’indemnité prévue pour les CDI. Préavis : Le salarié requalifié a droit au préavis légal."
 "39.CDDs arrivés à terme = indemnité, indemnité licenciement et CP sur préavis."
 "40.Durée maximale d’un CDD d’usage selon liste D.1242-1."
 "41.L’accord écrit est nécessaire pour signature, PE et rupture conventionnelle."
@@ -1143,171 +1210,123 @@ Comme pour l’indemnité de licenciement, le préavis ne s’applique qu’en c
 "45.L’entretien professionnel obligatoire tous les 2 ans et bilan tous les 6 ans."
 "46.Renouvellement CDD possible selon code du travail."
 "47.Durée maximale heures complémentaires = 1/10ème horaire."
-"48.Salarié bénéficie du SMIC : Le SMIC (Salaire Minimum Interprofessionnel de Croissance) est le salaire minimum légal en France.
-Tout salarié doit au moins être payé au SMIC, quelle que soit la convention collective ou la grille de salaire.
-Si la convention collective prévoit un salaire inférieur au SMIC, l’employeur doit verser le SMIC, la loi étant prioritaire.."
+"48.Salarié bénéficie du SMIC : Tout salarié doit au moins être payé au SMIC."
 "49.Lieu de travail = siège ou établissement secondaire."
 "50.Convention collective doit être mentionnée sur contrat et bulletins."
-"51. Une CDD ne peut être renouvelée que si la clause de renouvellement est prévue par la convention collective et mentionnée par écrit dans le contrat. Elle ne peut pas être indéfiniment renouvelée."
-"52. Pour un CDI à temps partiel, la visite médicale d'embauche est obligatoire comme pour tout salarié, afin de vérifier l'aptitude au poste."
-"53. Pour un cadre, la période d'essai maximale est de 4 mois, et le délai de prévenance légal pour rompre dépend de la durée de présence mais peut aller jusqu'à 1 mois."
-"54. Une clause de non-concurrence sans contrepartie financière est nulle, car la loi impose une compensation au salarié."
-"55. Le renouvellement d'une période d'essai est strictement interdit pour un employé/ouvrier sauf clause spécifique et convention collective applicable. Maximum total après renouvellement double de la période initiale (CDI Uniquement, donc selon nos corps de métiers cela fait 4,6 ou 8 mois)"
-"56. La rupture anticipée injustifiée d’un CDD par l’employeur oblige au paiement intégral des salaires jusqu’au terme prévu du contrat."
-"57. La visite d’information et de prévention pour un CDD doit être réalisée dans les 3 mois de l’embauche, même pour les contrats courts."
-"58. Le lieu de travail pour un CDI doit être précisé par écrit et de manière précise pour que la clause soit valide."
-"59. Pour un CDD de moins de 6 mois, la période d’essai maximale est de 2 semaines."
-"60. La clause de mobilité dans un CDI doit toujours être écrite et préciser le secteur géographique concerné."
-"61. La visite d'information et de prévention pour un CDD doit être réalisée dans les 3 mois de l’embauche CDI et avant fin de période d'essai CDD."
-"62. Le délai légal de prévenance pour rompre la période d'essai d'un salarié présent entre 8 jours et 1 mois est de 48 h."
-"63. Pour un CDD de plus de 6 mois, la période d'essai est au maximum de 1 mois selon le Code du travail."
-"64. La visite médicale pour un CDI à temps plein est obligatoire pour vérifier l'aptitude au poste."
-"65. La clause de non-concurrence doit inclure une limite temporelle, géographique et une contrepartie financière."
-"66. Le salarié n'a pas de délai de prévenance obligatoire  EN CDD mais en CDI 24h si présence < 8jr sinon 48H"
-"67. La période d'essai maximale pour un agent de maîtrise est de 3 mois."
-"68. Le Préambule de la Constitution de 1946 garantit le droit au travail, l'égalité de traitement et la liberté syndicale."
-"69. L'article 1er de la DDHC consacre l'égalité des hommes en droits et interdit les distinctions sociales arbitraires."
-"70. Pour un salarié présent plus de 3 mois, le délai de prévenance légal pour rupture de période d'essai est de 1 mois."
-"71. La Déclaration Universelle des Droits de l'Homme (1948) consacre le droit à une rémunération équitable."
-"72. L'entretien professionnel doit être réalisé tous les 2 ans et un bilan tous les 6 ans."
-"73. La clause de mobilité doit être écrite et préciser le secteur géographique concerné."
-"74. La liberté syndicale est garantie par le Code du travail, le Préambule de 1946 et la Déclaration Universelle des Droits de l’Homme."
-"75. Un salarié absent moins de 8 jours bénéficie d'un délai de prévenance de 24 h pour rupture de période d'essai."
-"76. La clause de non-concurrence pour un CDI doit obligatoirement être écrite."
-"77. Le droit d'accès aux archives publiques est un principe constitutionnel selon le Conseil Constitutionnel."
-"78. Le CDD de remplacement pour maternité doit correspondre à la durée exacte de l’absence du salarié remplacé."
-"79. L'égalité des droits pour la femme est consacrée par le Préambule de la Constitution de 1946."
-"80. La durée maximale d’un CDD pour travaux urgents de sécurité est de 9 mois."
-"81. La rupture conventionnelle nécessite l’accord écrit des deux parties et une homologation par la Dreets pour être valable."
-"82. En cas de faute grave, le salarié n’a aucun préavis lors du licenciement."
-"83. L’indemnité de précarité n’est pas due si le CDD est rompu pour faute grave de l’employeur."
-"84. La durée maximale d’un CDD saisonnier est de 18 mois selon le Code du travail."
-"85. L’entretien professionnel après congé maternité doit avoir lieu dans les 6 mois suivant le retour."
-"86. Pour un cadre présent entre 1 et 3 mois, le délai de prévenance pour rupture de période d’essai est de 2 semaines."
-"87. Un CDD non signé par les deux parties est requalifié en CDI."
-"88. La durée minimale à temps partiel est de 24 h hebdo sauf dispositions conventionnelles."
-"89. La clause de non-concurrence peut être invalidée pour durée disproportionnée, zone trop large ou absence de contrepartie."
-"90. Le salarié conteste la requalification d’un CDD en CDI devant le Conseil de Prud’hommes."
-"91. La période d’essai maximale pour un employé/ouvrier est de 2 mois."
-"92. Un CDD d’usage doit mentionner explicitement son caractère d’usage."
-"93. Le salarié peut rompre le CDD avec préavis selon les dispositions légales pour un CDI "
-"94. La convention collective doit être mentionnée dans le contrat de travail et sur le bulletin de salaire.
-la convention collective applicable doit figurer dans le contrat de travail. Référence :Article R.3243-1 du Code du travail
-La convention collective applicable doit être mentionnée ou à défaut, la référence à l’accord collectif qui s’applique dans l’entreprise.Le présent contrat est soumis à la convention collective nationale des hôtels, cafés, restaurants du 30 avril 1997. Cela permet au salarié de savoir quelles règles (congés, primes, période d’essai, etc.) s’appliquent à lui.
-Sur la fiche de paie : L’employeur a l’obligation d’indiquer la convention collective (ou à défaut, la référence à l’accord collectif) sur le bulletin de salaire. Référence : Article R.3243-1, 9° du Code du travail. Le bulletin de paie doit mentionner « la convention collective de branche applicable au salarié ou, à défaut, la référence au code du travail relative à la durée des congés payés et du préavis »."
-"95. La durée maximale d’un CDD pour accroissement temporaire d’activité est de 18 mois."
-"96. La visite de reprise est obligatoire si l’arrêt maladie dépasse 30 jours pour tous les salariés."
-"97. Le droit de grève est garanti par le Code du travail, le Préambule de 1946 "
-"98. La période d’essai d’un CDI ne peut être renouvelée que si la convention collective le prévoit et si la clause est écrite."
-"99. Le salarié n’a pas de délai légal obligatoire sauf conditions spécifiques : 24 h si <8 jours, 48 h si >8 jours."
-"100. Toute clause d’objectifs justifiant la rupture doit être écrite et proportionnée pour être valide."
-"101. Dans la hiérarchie des normes, la loi prime sur les décrets." 
-"102. Principe général (loi Travail 2016 – “loi El Khomri”) :
-Un accord d’entreprise prime sur la convention collective, sauf si la convention prévoit une disposition plus favorable aux salariés.
-Autrement dit :
-Accord d’entreprise s’applique s’il est plus favorable ou plus précis.
-Sinon, la convention collective reste applicable." 
-"103. L’article 1er de la DDHC consacre que toutes distinctions sociales doivent être fondées sur l’utilité commune." 
-"104. La liberté individuelle est limitée par les droits d’autrui et par la loi, selon l’article 4 de la DDHC." 
-"105. L’article 10 de la DDHC protège la liberté d’opinion et de croyance sauf si cela trouble l’ordre public." 
-"106. Le Préambule de la Constitution de 1946 consacre le droit au travail et le devoir de travailler." 
-"107. Les principes fondamentaux reconnus par les lois de la République sont proclamés par le Conseil constitutionnel." 
-"108. La liberté d’association est protégée par la jurisprudence du Conseil d’État, 11 juillet 1956." 
-"109. La liberté individuelle est un principe fondamental reconnu par le Conseil constitutionnel en 1977." 
-"110. La Constitution est la norme suprême, au-dessus de toutes les lois et règlements." 
-"111. La décision du 28 mai 1983 précise que la loi fixe les règles pour garantir les libertés publiques et l’exercice du droit au travail." 
-"112. L’objectif de valeur constitutionnelle concernant la protection sociale est l’équilibre financier de la sécurité sociale." 
-"113. La CEDH garantit l’interdiction de l’esclavage et du travail forcé (Article 4)." 
-"114. La Charte Sociale Européenne protège les droits sociaux tels que le logement, la santé, l’éducation et l’emploi." 
-"115. La Charte des droits fondamentaux de l’UE a la même valeur qu’un Traité." 
-"116. La loi du 22 mars 1841 réglementait le travail des enfants." 
-"117. La loi Waldeck-Rousseau de 1884 a instauré la liberté syndicale." 
-"118. Les conseils de prud’hommes ont été créés en 1906." 
-"119. Les Accords de Grenelle ont instauré la 4ème semaine de congés payés par an." 
-"120. Les lois Aubry I & II fixent la durée légale du travail à 35 heures hebdomadaires."
-"121. La liberté d’entreprendre est un principe reconnu par la Déclaration de 1789 et confirmé par la jurisprudence constitutionnelle, notamment en cas de nationalisations ou d’atteintes à la liberté économique."
-"122. Le droit au travail est affirmé dans le Préambule de 1946 et repris dans l’article 23 de la Déclaration universelle des droits de l’homme, assurant le droit à un emploi et à des conditions de travail équitables."
-"123. L’égalité salariale est un principe constitutionnel et social, inscrit dans le Préambule de 1946 et précisé dans le Code du travail, garantissant un traitement égal pour un travail de valeur égale."
-"124. Un CDD (contrat à durée déterminée) est conclu pour une durée précise et ne peut pas être rompu librement avant son terme.
-La loi ne permet la rupture anticipée que dans des cas limités prévus par le Code du travail, article L1243-1 :
-Accord entre les parties,
-Faute grave de l’une des parties,
-Force majeure,
-Inaptitude constatée par le médecin du travail,
-Embauche du salarié en CDI (à son initiative).
-En dehors de ces hypothèses, toute rupture anticipée est illégale."
-"125.(Article L1245-1 du Code du travail : la requalification prend effet au premier jour d’exécution du CDD)"
-"126.Sauf cas exclus : CDD saisonnier, emploi étudiant, passage en CDI, etc."
-"127. En CDI, le délai de prévenance légal de l’employeur (article L1221-25 du Code du travail) dépend de la durée de présence du salarié :
-< 8 jours → 24 h
-8 jours à 1 mois → 48 h
-1 à 3 mois → 2 semaines
-> 3 mois → 1 mois
-Ici, le salarié est présent depuis 5 jours, donc le délai = 24 h."
-"128. Toujours selon l’article L1221-25, entre 1 et 3 mois de présence, le délai de prévenance à respecter par l’employeur est de 2 semaines.
-Cela permet au salarié de se préparer à la rupture tout en sécurisant la fin de sa période d’essai."
-"129.Pour un salarié présent depuis plus de 3 mois, le délai de prévenance en cas de rupture de la période d’essai par l’employeur est de 1 mois (article L1221-25).
-Ce délai ne prolonge pas la période d’essai : il doit simplement être respecté avant la fin effective de celle-ci."
-"130.En CDD, les règles sont simplifiées (article L1242-10) :
-Présence < 8 jours → 24 h
-Présence ≥ 8 jours → 48 h
-Ici, le salarié a moins de 8 jours de présence, donc 24 h suffisent."
-"131.Dans un CDD, le délai de prévenance de l’employeur est :
-24 h si le salarié est présent depuis moins de 8 jours,
-48 h s’il est présent depuis plus de 8 jours.
-Ici, la présence est de 15 jours, donc le délai = 48 heures."
-"132. Dans le cadre d’un CDI, le délai de prévenance que doit respecter l’employeur lorsqu’il met fin à la période d’essai varie selon la durée de présence effective du salarié (article L1221-25 du Code du travail).
-Voici les paliers légaux :
-< 8 jours → 24 heures
-8 jours à 1 mois → 48 heures
-1 à 3 mois → 2 semaines
-> 3 mois → 1 mois
- Ainsi, le délai de 2 semaines s’applique pour un salarié ayant entre 1 et 3 mois de présence dans l’entreprise au moment de la rupture de sa période d’essai.
-Cela permet de prévenir le salarié dans un délai raisonnable, tout en laissant à l’employeur la possibilité de rompre le contrat avant la confirmation définitive."
-"133. Le bloc de constitutionnalité (Constitution de 1958, Déclaration de 1789, Préambule de 1946, Charte de l’environnement de 2004, etc.) est au sommet de la hiérarchie des normes.
-Toutes les autres normes (lois, règlements, etc.) doivent y être conformes."
-"134.Les ordonnances (article 38 de la Constitution) sont prises par le gouvernement avec l’autorisation du Parlement.
-Elles ont valeur réglementaire avant ratification, puis valeur législative après ratification, mais restent soumises à la Constitution et aux normes internationales."
-"135.Les actes administratifs (arrêtés municipaux, préfectoraux, circulaires ministérielles) doivent respecter toutes les normes supérieures, notamment :
-la Constitution,
-les lois,
-les décrets.
-Ils occupent le bas de la pyramide et ne peuvent jamais contredire une norme supérieure."
-"136.Le Conseil constitutionnel contrôle la conformité des lois à la Constitution avant leur promulgation (article 61 de la Constitution).
-Depuis 2010, il peut aussi être saisi après promulgation par la procédure de Question Prioritaire de Constitutionnalité (QPC).
- Ce contrôle garantit la suprématie du bloc de constitutionnalité."
-"137.D’après l’article 55 de la Constitution,
-Les traités ou accords internationaux régulièrement ratifiés ou approuvés ont une autorité supérieure à celle des lois, dès leur publication, à condition d’être appliqués par l’autre partie.
-Cela signifie que les normes internationales (traités, conventions, droit de l’Union européenne) priment sur les lois nationales, mais restent subordonnées à la Constitution."
-"138.Le Préambule proclame la garantie de l’égalité des droits entre femmes et hommes dans tous les domaines."
-"139. Le droit d’asile est explicitement mentionné comme un principe fondamental nécessaire à l’époque."
-"140.Nul ne peut être lésé dans son travail ou son emploi pour ses origines, opinions ou croyances."
-"141.Le Préambule de la Constitution de 1946 énonce plusieurs principes fondamentaux à valeur constitutionnelle en matière sociale :
-Liberté syndicale (A) :
-Chaque salarié a le droit de se regrouper librement au sein d’un syndicat.
-Cette liberté protège à la fois la création et l’adhésion aux syndicats, et interdit toute discrimination ou sanction liée à l’appartenance syndicale.
-Elle constitue un droit fondamental protégé par le bloc de constitutionnalité et le Code du travail (articles L2141-1 et suivants).
-Droit de grève (B) :
-Tous les travailleurs peuvent exercer ce droit pour défendre leurs intérêts professionnels.
-La Constitution de 1946 affirme que ce droit est fondamental et nécessaire à l’équilibre des relations professionnelles, sans être limité aux seules fonctions publiques.
-Le droit de grève est encadré par le Code du travail pour garantir un exercice pacifique et proportionné.
-Les réponses C et D sont fausses :
-La Constitution ne prévoit pas la suppression du droit de grève.Il n’existe aucune priorité légale pour les syndicats patronaux sur les syndicats de salariés."
-"142. L’insuffisance professionnelle est un motif non disciplinaire de licenciement. La jurisprudence reconnaît qu’un salarié peut être licencié pour manque de compétence, même sans faute (C. trav., art. L1232-1)."
-"143.Selon art. L1226-2 du Code du travail, le licenciement pour inaptitude n’est possible que si le reclassement dans l’entreprise est impossible. L’employeur doit respecter cette obligation avant de licencier."
-"144.La faute lourde implique une intention de nuire à l’entreprise et justifie un licenciement sans préavis ni indemnité (C. trav., art. L1234-9)."
-"145.Selon art. L1233-3 du Code du travail, le licenciement économique survient pour motif économique : suppression ou transformation d’emploi, difficultés économiques ou mutation technologique."
-"146.Art. L1233-5 C. trav. prévoit que l’employeur peut utiliser des critères pour fixer l’ordre des licenciements, sous réserve qu’ils soient objectifs, non discriminatoires et proportionnés."
-"147.L’ancienneté est explicitement mentionnée dans art. L1233-5 comme critère prioritaire pour déterminer l’ordre des licenciements."
-"148.Le licenciement économique est annulable si les critères sont discriminatoires (origine, sexe, religion) selon art. L1132-1."
-"149. Règles légales sur la forme du contrat (Code du travail)
-CDI à temps plein : Écrit non obligatoire.
-Un CDI peut être verbal si c’est un CDI à temps plein (C. trav., art. L1221-1). 
-CDI à temps partiel :Écrit obligatoire.
-L’écrit doit préciser la durée du travail, la répartition des heures, etc. (C. trav., art. L3123-4). :CDD
-Écrit obligatoire, quelle que soit la durée du contrat ou le temps de travail (C. trav., art. L1242-2).
-L’écrit doit mentionner la raison du recours au CDD, la durée, le poste, etc.. "
-"150. La faute lourde implique une intention de nuire à l’entreprise et justifie un licenciement sans préavis ni indemnité (C. trav., art. L1234-9)."
+"51.Une CDD ne peut être renouvelée que si la clause est prévue par la convention collective et mentionnée par écrit dans le contrat."
+"52.Pour un CDI à temps partiel, la visite médicale d'embauche est obligatoire."
+"53.Pour un cadre, période d'essai maximale 4 mois et délai de prévenance selon durée de présence."
+"54.Une clause de non-concurrence sans contrepartie financière est nulle."
+"55.Le renouvellement d'une période d'essai est interdit sauf clause spécifique et convention applicable. Maximum total après renouvellement = double période initiale."
+"56.La rupture anticipée injustifiée d’un CDD par l’employeur oblige au paiement intégral des salaires jusqu’au terme prévu."
+"57.La visite d’information et de prévention pour un CDD doit être réalisée dans les 3 mois de l’embauche."
+"58.Le lieu de travail pour un CDI doit être précisé par écrit."
+"59.Pour un CDD < 6 mois, période d’essai maximale = 2 semaines."
+"60.La clause de mobilité dans un CDI doit être écrite et préciser le secteur géographique."
+"61.La visite d'information et de prévention pour un CDD doit être réalisée dans les 3 mois de l’embauche CDI et avant fin de période d'essai CDD."
+"62.Le délai légal de prévenance pour rupture période d'essai salarié présent 8 jours à 1 mois = 48 h."
+"63.Pour un CDD > 6 mois, période d'essai max = 1 mois."
+"64.La visite médicale pour un CDI à temps plein est obligatoire."
+"65.La clause de non-concurrence doit inclure limite temporelle, géographique et contrepartie financière."
+"66.Le salarié n'a pas de délai de prévenance obligatoire en CDD ; en CDI : 24h si <8 jours sinon 48h."
+"67.Période d'essai max pour agent de maîtrise = 3 mois."
+"68.Préambule Constitution 1946 garantit droit au travail, égalité de traitement et liberté syndicale."
+"69.Article 1er DDHC consacre égalité hommes en droits et interdit distinctions sociales arbitraires."
+"70.Salarié > 3 mois : délai de prévenance légal pour rupture période d'essai = 1 mois."
+"71.DUDH 1948 consacre droit à rémunération équitable."
+"72.L'entretien professionnel tous les 2 ans et bilan tous les 6 ans."
+"73.La clause de mobilité doit être écrite et préciser le secteur géographique."
+"74.Libre syndicale garantie par Code du travail, Préambule 1946 et DUDH."
+"75.Salarié absent < 8 jours : délai prévenance 24 h pour rupture période d'essai."
+"76.Clause de non-concurrence CDI doit être écrite."
+"77.Droit d'accès aux archives publiques = principe constitutionnel."
+"78.CDD de remplacement pour maternité = durée exacte absence salarié remplacé."
+"79.Égalité des droits pour femme = Préambule Constitution 1946."
+"80.Durée maximale CDD travaux urgents sécurité = 9 mois."
+"81.Rupture conventionnelle = accord écrit + homologation Dreets."
+"82.En cas de faute grave : salarié n’a aucun préavis."
+"83.Indemnité précarité non due si CDD rompu pour faute grave employeur."
+"84.Durée maximale CDD saisonnier = 18 mois."
+"85.Entretien professionnel après congé maternité dans 6 mois suivant retour."
+"86.Cadre présent 1-3 mois : délai prévenance rupture période d’essai = 2 semaines."
+"87.CDD non signé par les deux parties = requalifié en CDI."
+"88.Durée minimale à temps partiel = 24 h hebdo sauf dispositions conventionnelles."
+"89.Clause non-concurrence peut être invalidée si durée disproportionnée, zone trop large ou absence contrepartie."
+"90.Salarié conteste requalification CDD en CDI devant Prud’hommes."
+"91.Période d'essai max pour employé/ouvrier = 2 mois."
+"92.CDD d’usage doit mentionner explicitement caractère d’usage."
+"93.Salarié peut rompre CDD avec préavis selon dispositions légales CDI."
+"94.Convention collective doit être mentionnée dans contrat et bulletins (Art. R.3243-1)."
+"95.Durée maximale CDD pour accroissement temporaire = 18 mois."
+"96.Visite de reprise obligatoire si arrêt maladie > 30 jours."
+"97.Droit de grève garanti par Code du travail, Préambule 1946."
+"98.Période d’essai CDI renouvelable si convention prévoit et clause écrite."
+"99.Salarié n’a pas de délai légal obligatoire sauf conditions spécifiques : 24 h si <8 jours, 48 h si >8 jours."
+"100.Toute clause d’objectifs justifiant rupture doit être écrite et proportionnée."
+"101.Hiérarchie normes : loi prime sur décrets."
+"102.Principe général (loi Travail 2016) : accord d’entreprise prime sur convention collective sauf dispositions plus favorables."
+"103.Article 1er DDHC : distinctions sociales doivent être fondées sur utilité commune."
+"104.Liberté individuelle limitée par droits d’autrui et loi (art. 4 DDHC)."
+"105.Article 10 DDHC : liberté d’opinion et de croyance sauf trouble à l’ordre public."
+"106.Préambule Constitution 1946 consacre droit au travail et devoir de travailler."
+"107.Principes fondamentaux reconnus par lois République proclamés par Conseil constitutionnel."
+"108.Liberté d’association protégée par jurisprudence Conseil d’État, 11 juillet 1956."
+"109.Liberté individuelle = principe fondamental reconnu par Conseil constitutionnel 1977."
+"110.Constitution = norme suprême."
+"111.Décision 28 mai 1983 : loi fixe règles pour garantir libertés publiques et exercice droit au travail."
+"112.Objectif valeur constitutionnelle protection sociale = équilibre financier sécurité sociale."
+"113.CEDH garantit interdiction esclavage et travail forcé (Art. 4)."
+"114.Charte Sociale Européenne protège droits sociaux : logement, santé, éducation, emploi."
+"115.Charte droits fondamentaux UE = valeur d’un Traité."
+"116.Loi 22 mars 1841 réglementait travail enfants."
+"117.Loi Waldeck-Rousseau 1884 = liberté syndicale."
+"118.Conseils Prud’hommes créés en 1906."
+"119.Accords de Grenelle instaurent 4ème semaine congés payés/an."
+"120.Lois Aubry I & II fixent durée légale travail 35h/sem."
+"121.Liberté d’entreprendre = principe Déclaration 1789, confirmé par jurisprudence constitutionnelle."
+"122.Droit au travail = Préambule 1946 + art. 23 DUDH : droit emploi et conditions travail équitables."
+"123.Égalité salariale = principe constitutionnel et social (Préambule 1946, Code travail)."
+"124.CDD = durée précise, rupture anticipée seulement dans cas prévus L1243-1 : accord parties, faute grave, force majeure, inaptitude, embauche CDI."
+"125.(Art. L1245-1) Requalification prend effet au 1er jour d’exécution CDD."
+"126.Sauf cas exclus : CDD saisonnier, emploi étudiant, passage en CDI."
+"127.En CDI, délai prévenance employeur (L1221-25) dépend durée présence : <8j=24h, 8j-1mois=48h, 1-3mois=2sem, >3mois=1mois."
+"128.Entre 1-3 mois, délai prévenance = 2 semaines, permet préparation rupture et sécurité fin période d’essai."
+"129.Salarié >3 mois : délai prévenance rupture période d’essai = 1 mois."
+"130.CDD <8j=24h, ≥8j=48h. Exemple salarié <8j=24h."
+"131.CDD : délai prévenance employeur = 24h si <8j, 48h si >8j. Exemple 15j=48h."
+"132.CDI : délai prévenance selon durée présence (L1221-25) : <8j=24h, 8j-1mois=48h, 1-3mois=2sem, >3mois=1mois."
+"133.Bloc constitutionnalité (1958,1789,1946,Charte 2004) = sommet hiérarchie normes."
+"134.Ordonnances (Art. 38 Constitution) : gouvernement avec autorisation Parlement, valeur réglementaire avant ratification, législative après, respect Constitution."
+"135.Actes administratifs (arrêtés, circulaires…) doivent respecter normes supérieures (Constitution, lois, décrets)."
+"136.Conseil constitutionnel contrôle conformité lois avant promulgation (Art. 61). Depuis 2010 : QPC après promulgation."
+"137.Art. 55 Constitution : traités/accords internationaux ratifiés > lois, si appliqués par autre partie."
+"138.Préambule garantit égalité droits femmes/hommes."
+"139.Droit d’asile = principe fondamental."
+"140.Nul ne peut être lésé pour origines, opinions ou croyances."
+"141.Préambule 1946 : Liberté syndicale (création/adhésion), droit grève, réponses C et D fausses."
+"142.Insuffisance professionnelle = motif non disciplinaire licenciement (Art. L1232-1)."
+"143.L1226-2 : licenciement inaptitude possible si reclassement impossible."
+"144.Faute lourde = intention nuire, licenciement sans préavis/indemnité (Art. L1234-9)."
+"145.L1233-3 : licenciement économique = suppression/transformation emploi, difficultés économiques, mutation technologique."
+"146.L1233-5 : critères fixation licenciements économiques (âge, ancienneté, charges famille)."
+"147.Art. L1242-7 : CDD motif temporaire ou remplacement, durée maximale variable selon cas."
+"148.Art. L1242-8 : terme précis ou imprécis, prime précarité 10% sauf exceptions."
+"149.Art. L1243-1 : rupture anticipée CDD uniquement si faute grave, force majeure, accord parties, inaptitude."
+"150.Art. L1245-1 : requalification CDD en CDI si non-respect conditions légales."
+"151.Prime précarité = 10% rémunération totale CDD, sauf CDI antérieur ou faute grave employeur."
+"152.Délai de carence obligatoire entre deux CDD = 1/3 durée précédente sauf exceptions."
+"153.Entretien professionnel obligatoire tous les 2 ans, bilan tous les 6 ans (L6321-1)."
+"154.Clauses contractuelles (mobilité, non-concurrence, confidentialité) doivent être écrites, proportionnées, justifiées et avec contrepartie."
+"155.Durée maximale période d’essai : ouvrier/agent maîtrise=2/3mois, technicien=3mois, cadre=4mois, renouvellement possible si convention + clause écrite."
+"156.Délai prévenance salarié : CDI 24-48h, selon durée présence ; CDD selon durée contrat."
+"157.Droit aux congés payés acquis dès premier mois travail effectif, 2,5 jours/mois (Art. L3141-3)."
+"158.Convention collective applicable mentionnée sur contrat et bulletins (Art. R3243-1)."
+"159.Égalité salariale hommes/femmes obligatoire (Art. L3221-2, L3221-3)."
+"160.Visite médicale obligatoire pour CDI et CDD >3 mois, avant embauche ou retour long arrêt maladie."
+"161.Clauses spécifiques (non-concurrence, mobilité) = écrites, justifiées, proportionnées, compensation financière obligatoire."
+"162.Durée maximale CDD = 18-24 mois selon motif : accroissement temporaire, remplacement, travaux urgents, mission à l’étranger, saisonnier."
+"163.Préavis, indemnités, droits acquis = déterminés par durée présence, contrat, convention, loi."
+"164.Requalification CDD en CDI entraîne indemnité compensatrice, solde tout compte, certificat travail, attestation Pôle emploi, préavis selon cas."
 )
 
 # -----------------------------
@@ -1341,7 +1360,7 @@ echo ""
 echo "  Toute violation de ces conditions constitue une contrefaçon au sens des articles L335-2 et suivants du Code de la Propriété Intellectuelle."
 echo ""
 echo "  Citation suggérée : « Mickael Coquerelle (Université de Montpellier - CHU de Nîmes),"
-echo "    QCMployé.sh – QCM de Droit du Travail (version 1.0), 2025 »"
+echo "    QCMployé.sh – QCM de Droit du Travail (version 1.0), 2025 "
 echo "----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------"
 echo "   « Nul n’est censé ignorer la loi… sauf à la question 12. »"
 echo "----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------"
