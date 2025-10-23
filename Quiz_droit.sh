@@ -116,7 +116,7 @@ B) 12 mois
 C) 18 mois
 D) 24 mois"
 
-"19. Quel est le principe de fixation du salaire ?
+"19. Quel est le principe de liberté de fixation du salaire ?
 A) Salaire librement négocié
 B) Toujours égal au SMIC
 C) Fixé par l’employeur sans limite
@@ -291,7 +291,7 @@ C) 1/10ème de l’horaire
 D) 1/3 de l’horaire"
 
 "48. Le salarié bénéficie du SMIC :
-A) Toujours
+A) Toujours au minimumF
 B) Si inférieur à la grille conventionnelle
 C) Jamais
 D) Selon négociation uniquement"
@@ -509,7 +509,7 @@ D) Optionnel selon la convention collective"
 "84. Pour un CDD saisonnier, la durée maximale ne peut excéder :
 A) 6 mois
 B) 8 mois
-C) 18 mois
+C) 9 mois
 D) 24 mois"
 
 "85. L’entretien professionnel après retour de congé maternité doit avoir lieu :
@@ -991,6 +991,54 @@ A) 3 jours ouvrables
 B) 5 jours ouvrables
 C) 7 jours calendaires
 D) 15 jours"
+
+"165. Le remplacement pour accroissement temporaire d'activité est : 
+A) Interdit dans les 9 mois d'un licenciement économique
+B) Autorisé après 6 mois suite un licencement économique
+C) Au maximum de 24 mois
+D) Au maximum de 18 mois"
+
+"166.Le remplacement d’un salarié absent (maladie, maternité, formation, etc.) par un CDD est encadré par une durée maximale. Laquelle est correcte selon le Code du travail ?
+A) Jusqu’au retour du salarié absent s’il est à terme imprécis
+B) 12 mois maximum si le salarié n’est pas remplacé immédiatement
+C) 18 mois maximum si le CDD est à terme précis.
+D) 24 mois maximum, quelle que soit la situation
+"
+"167. La lettre de convocation à un entretien dans le cadre d'une procédure de licenciement dois mentionner : 
+A) Objet de la convocation
+B) La date, le lieu et la personne qui convoque
+C) L'assistance du salarié (CSE :membre du personnel, sans CSE : 1 membre du personnel ou conseiller sur la liste préfectorale)
+D) L'adresse"
+
+"168. PHASE 1 : Quel est le délai minimal entre la convocation et la tenue de l’entretien préalable à un licenciement (motif personnel) ?
+A) 2 jours ouvrés
+B) 3 jours ouvrables
+C) 5 jours ouvrables
+D) 7 jours calendaires"
+
+"169.Entre l’entretien(PHASE 2) et la notification du licenciement (PHASE 3) : Quel est le délai minimal entre l’entretien préalable et l’envoi de la lettre de licenciement pour motif personnel non disciplinaire ?
+A) Aucun délai
+B) 1 jour ouvrable
+C) 2 jours ouvrables
+D) 5 jours ouvrables"
+
+"170.Quelle affirmation distingue correctement l’incapacité, l’invalidité et l’inaptitude du salarié ?
+A)
+Incapacité : perte totale ou partielle des capacités physiques à la suite d’un accident du travail ou d’une maladie professionnelle ;
+Invalidité : réduction durable de la capacité de travail ou de gain, reconnue par la Sécurité sociale ;
+Inaptitude : impossibilité d’occuper un poste, constatée par le médecin du travail.
+B)
+Incapacité : fait suite à un accident du travail ou une maladie professionnelle, indemnisée par la CPAM ;
+Invalidité : concerne une maladie ou un accident non professionnel, ouvrant droit à une pension d’invalidité ;
+Inaptitude : relève du médecin du travail, pouvant conduire à un reclassement ou à un licenciement.
+C)
+Incapacité : arrêt prescrit par le médecin traitant ;
+Invalidité : reconnue par le médecin-conseil de la Sécurité sociale ;
+Inaptitude : décidée par le médecin du travail après examen du salarié.
+D)
+Invalidité est une notion interne à l’entreprise ;
+Inaptitude ne peut être prononcée qu’après un licenciement.
+"
 )
 
 # -----------------------------
@@ -1069,7 +1117,7 @@ answers=(
 "B" #70
 "A" #71
 "B" #72
-"B" #73
+"B" #73	
 "AB" #74
 "B" #75
 "B" #76
@@ -1161,6 +1209,13 @@ answers=(
 "B" #162
 "B" #163
 "B" #164
+"BD" #165
+"AC" #166
+"ABCD" #167
+"C" #168
+"C" #169
+"ABC" #170
+
 )
 
 explanations=("1.Le CDI est le contrat de droit commun, contrairement au CDD qui est dérogatoire."
@@ -1188,7 +1243,7 @@ explanations=("1.Le CDI est le contrat de droit commun, contrairement au CDD qui
 "23.La démission d’un salarié en CDD est interdite sauf embauche CDI ailleurs."
 "24.Le non-respect des règles du CDD entraîne amendes et requalification en CDI."
 "25.Pour un salarié à temps partiel, toutes ces clauses sont obligatoires."
-"26.La clause de non-concurrence doit inclure limite temporelle, géographique et contrepartie financière."
+"26.La clause de non-concurrence protège l'entreprise en empêchant un ex-salarié de travailler pour un concurrent pendant une durée déterminée. Pour être valable, elle doit être indispensable, limitée dans le temps et l'espace, proportionnée et comporter une contrepartie financière."
 "27.La visite médicale avant fin de PE est obligatoire pour un CDD."
 "28.Le contrat saisonnier est un CDD particulier, conclu pour accomplir des tâches qui reviennent chaque année à des dates fixes. Référence : Article L1242-2, 3° du Code du travail. Exemples : Agriculture (vendanges, récoltes, taille, semis…), Tourisme (hôtels, restaurants, stations de ski, campings, parcs d’attraction…), Industrie agroalimentaire (conserveries, conditionnement fruits/légumes)."
 "29.Le lien de subordination désigne la direction par l’employeur."
@@ -1318,8 +1373,12 @@ explanations=("1.Le CDI est le contrat de droit commun, contrairement au CDD qui
 "153.Entretien professionnel obligatoire tous les 2 ans, bilan tous les 6 ans (L6321-1)."
 "154.Clauses contractuelles (mobilité, non-concurrence, confidentialité) doivent être écrites, proportionnées, justifiées et avec contrepartie."
 "155.Durée maximale période d’essai : ouvrier/agent maîtrise=2/3mois, technicien=3mois, cadre=4mois, renouvellement possible si convention + clause écrite."
-"156.Délai prévenance salarié : CDI 24-48h, selon durée présence ; CDD selon durée contrat."
-"157.Droit aux congés payés acquis dès premier mois travail effectif, 2,5 jours/mois (Art. L3141-3)."
+"156.Cause réelle et sérieuse de licenciement personnel pour motif non-disciplinaire.La cause réelle et sérieuse est nécessaire pour procéder à un licenciement pour motif personnel non disciplinaire. Pour être valable, elle doit répondre à 3 critères :
+    elle doit être précise et vérifiable ;
+    elle doit reposer sur des faits réels ;
+    elle doit être suffisamment importante pour justifier un licenciement."
+"157.L’inaptitude médicale au travail peut être prononcée par le médecin du travail lorsque l’état de santé (physique ou mentale) du salarié est devenu incompatible avec le poste qu’il occupe ; Avant de prendre cette décision, le médecin du travail doit réaliser au moins un examen médical du salarié concerné et procéder (ou faire procéder) à une étude de son poste de travail ;C’est uniquement s’il constate qu'aucune mesure d'aménagement, d'adaptation ou de transformation du poste de travail occupé n'est possible alors que l'état de santé du salarié justifie un changement de poste que le médecin du travail peut le déclarer inapte à son poste de travail ; L’avis d’inaptitude oblige l'employeur à rechercher un reclassement pour le salarié ;Néanmoins, l'employeur peut procéder au licenciement du salarié s’il est en mesure de justifier ;De son impossibilité à lui proposer un emploi compatible avec son état de santé ;Ou du refus par le salarié de l’emploi proposé.
+L’employeur peut également licencier le salarié si l’avis d’inaptitude mentionne expressément que tout maintien dans un emploi serait gravement préjudiciable à la santé de ce dernier ou que son état de santé fait obstacle à tout reclassement dans un emploi."
 "158.Convention collective applicable mentionnée sur contrat et bulletins (Art. R3243-1)."
 "159.Égalité salariale hommes/femmes obligatoire (Art. L3221-2, L3221-3)."
 "160.Visite médicale obligatoire pour CDI et CDD >3 mois, avant embauche ou retour long arrêt maladie."
@@ -1327,6 +1386,12 @@ explanations=("1.Le CDI est le contrat de droit commun, contrairement au CDD qui
 "162.Durée maximale CDD = 18-24 mois selon motif : accroissement temporaire, remplacement, travaux urgents, mission à l’étranger, saisonnier."
 "163.Préavis, indemnités, droits acquis = déterminés par durée présence, contrat, convention, loi."
 "164.Requalification CDD en CDI entraîne indemnité compensatrice, solde tout compte, certificat travail, attestation Pôle emploi, préavis selon cas."
+"165. Article L1242-5 du Code du travail : Il est interdit de conclure un CDD pour accroissement temporaire d’activité pendant les 6 mois suivant un licenciement économique sur le même poste.Donc la bonne durée ici est bien 6 mois. Durée maximale du CDD pour accroissement temporaire d’activité : Article L1242-8 et D1242-1 du Code du travail.Un CDD pour accroissement temporaire d’activité dure au maximum 18 mois (renouvellement inclus)."
+"166.En cas de remplacement d’un salarié absent, la durée du CDD est de 18 mois maximum si le contrat est à terme précis (date de fin connue à l’avance) ;
+Jusqu’au retour du salarié remplacé si le contrat est à terme imprécis (fin de l’absence non déterminée). Référence : Article L1242-7 et D1242-1 du Code du travail."
+"167.La lettre doit indiquer l’objet de la convocation, la date/lieu/personne qui convoque, et la possibilité pour le salarié de se faire assister, et les adresses (mais non explicitements mentionnées comme obligatoire dans le code du travail)."
+"168. Au moins 5 jours ouvrables doivent séparer la remise (ou réception) de la convocation et la date de l’entretien. Réf : Article L1232-2 du Code du travail."
+"169.L’employeur doit attendre au moins 2 jours ouvrables avant d’envoyer la lettre de licenciement. Réf : Article L1232-6 du Code du travail."
 )
 
 # -----------------------------
