@@ -322,7 +322,7 @@ D) Seulement si le salarié le demande"
 
 "53. La période d’essai d’un cadre peut être interrompue par l’employeur avec un préavis légal de :
 A) 48 h
-B) 2 semaines
+B) Dépend de la durée effectuée dans l'entreprise
 C) 1 mois
 D) Aucun préavis obligatoire"
 
@@ -596,11 +596,11 @@ B) Non, sauf si convention collective et clause écrite
 C) Oui, pour les cadres uniquement
 D) Toujours pour les employés"
 
-"99. Le délai de prévenance légal du salarié pour rompre la période d’essai :
+"99. Le délai de prévenance légal du salarié pour rompre la période d’essai (sous hypothèse de CDI):
 A) 24 h si présent < 8 jours
 B) 48 h si présent > 8 jours
 C) Aucun
-D) A et B selon durée"
+D) Réponse A et B"
 
 "100. Une clause d’objectifs non atteints permettant la rupture de la période d’essai doit :
 A) Être écrite et proportionnée
@@ -1039,7 +1039,36 @@ D)
 Invalidité est une notion interne à l’entreprise ;
 Inaptitude ne peut être prononcée qu’après un licenciement.
 "
-)
+
+"171.Quelles sont les bonnes réponses conçernant la forme du contrat : 
+A) Contrat écrit non obligatoire pour le CDI à Temps plein
+B) Contrat écrit non obligatoire pour le CDI à temps partiel
+C) Contrat obligatoire pour le CDD à temps plein
+D) Contrat obligatoire pour le CDD à temps partiel"
+
+"172. Date de création du SMIG:
+A) 1940
+B) 1950
+C) 1960
+D) 1970"
+
+"173. 1864 est une année important pour quel(s) motif(s) ? 
+A) Abrogation du délit de coalition
+B) Participera à l'autorisation de faire grève
+C) le droit au chomage
+D) le droit aux enfants de ne plus travailler"
+
+"174. Quelles affirmations sont vraies : 
+A) création de l’assurance chômage en 1958
+B) création de la sécurité sociale en 1945
+C) Instauration de la 5ème semaine de congés payés (semaine à 39heures) 1982
+D) 1998 & 2000 Loi Aubry 1 et 2 : semaine à 35 heures."
+
+"175. Quelles affirmations sont vraies:
+A) 2012 instauration du télétravail
+B) 1982 Durée légale du travail fixée à 39 heures
+C) 1910 Instauration du code du travail.
+D) 1919 Durée légale du travail journalié 8 heures semaine fixée à 48 heures"
 
 # -----------------------------
 # 2️ Réponses correctes
@@ -1118,7 +1147,7 @@ answers=(
 "A" #71
 "B" #72
 "B" #73	
-"AB" #74
+"D" #74
 "B" #75
 "B" #76
 "A" #77
@@ -1195,7 +1224,7 @@ answers=(
 "B" #148
 "ACD" #149
 "BCD" #150
-"AB" #151
+"A" #151
 "ACD" #152
 "AC" #153
 "A" #154
@@ -1215,6 +1244,11 @@ answers=(
 "C" #168
 "C" #169
 "ABC" #170
+"ACD" #171
+"B" #172
+"AB" #173
+"ABCD" #174
+"ABCD" #175
 
 )
 
@@ -1287,7 +1321,7 @@ explanations=("1.Le CDI est le contrat de droit commun, contrairement au CDD qui
 "67.Période d'essai max pour agent de maîtrise = 3 mois."
 "68.Préambule Constitution 1946 garantit droit au travail, égalité de traitement et liberté syndicale."
 "69.Article 1er DDHC consacre égalité hommes en droits et interdit distinctions sociales arbitraires."
-"70.Salarié > 3 mois : délai de prévenance légal pour rupture période d'essai = 1 mois."
+"70.Salarié > 3 mois : légal pour délai de prévenance rupture période d'essai = 1 mois."
 "71.DUDH 1948 consacre droit à rémunération équitable."
 "72.L'entretien professionnel tous les 2 ans et bilan tous les 6 ans."
 "73.La clause de mobilité doit être écrite et préciser le secteur géographique."
@@ -1316,8 +1350,9 @@ explanations=("1.Le CDI est le contrat de droit commun, contrairement au CDD qui
 "96.Visite de reprise obligatoire si arrêt maladie > 30 jours."
 "97.Droit de grève garanti par Code du travail, Préambule 1946."
 "98.Période d’essai CDI renouvelable si convention prévoit et clause écrite."
-"99.Salarié n’a pas de délai légal obligatoire sauf conditions spécifiques : 24 h si <8 jours, 48 h si >8 jours."
-"100.Toute clause d’objectifs justifiant rupture doit être écrite et proportionnée."
+"99. CDI:24 h si présence < 8 jours, 48 h si présence > 8 jours Article L1221-25 du Code du travail
+CDD:Le Code du travail ne fixe pas de délai précis pour le salarié. L’employeur et le salarié peuvent se mettre d’accord, ou le contrat peut prévoir un délai.	Article L1243-1 et L1243-3 : le CDD peut être rompu pendant la période d’essai selon ce qui est prévu dans le contrat, sans durée légale impérative pour le salarié."
+"100.Toute clause d’objectifs justifiant rupture doit être écrite et proportionnée"
 "101.Hiérarchie normes : loi prime sur décrets."
 "102.Principe général (loi Travail 2016) : accord d’entreprise prime sur convention collective sauf dispositions plus favorables."
 "103.Article 1er DDHC : distinctions sociales doivent être fondées sur utilité commune."
@@ -1335,7 +1370,7 @@ explanations=("1.Le CDI est le contrat de droit commun, contrairement au CDD qui
 "115.Charte droits fondamentaux UE = valeur d’un Traité."
 "116.Loi 22 mars 1841 réglementait travail enfants."
 "117.Loi Waldeck-Rousseau 1884 = liberté syndicale."
-"118.Conseils Prud’hommes créés en 1906."
+"118.Conseils Prud’hommes créés en 1906, aujourd'hui il en existe 211. Egalement mise en place d'une loi relative au repos hebdomadaire de 24 heures après 6 jours de travail et création d’un ministère du travail"
 "119.Accords de Grenelle instaurent 4ème semaine congés payés/an."
 "120.Lois Aubry I & II fixent durée légale travail 35h/sem."
 "121.Liberté d’entreprendre = principe Déclaration 1789, confirmé par jurisprudence constitutionnelle."
@@ -1368,22 +1403,19 @@ explanations=("1.Le CDI est le contrat de droit commun, contrairement au CDD qui
 "148.Art. L1242-8 : terme précis ou imprécis, prime précarité 10% sauf exceptions."
 "149.Art. L1243-1 : rupture anticipée CDD uniquement si faute grave, force majeure, accord parties, inaptitude."
 "150.Art. L1245-1 : requalification CDD en CDI si non-respect conditions légales."
-"151.Prime précarité = 10% rémunération totale CDD, sauf CDI antérieur ou faute grave employeur."
-"152.Délai de carence obligatoire entre deux CDD = 1/3 durée précédente sauf exceptions."
+"151.Prime précarité égale 10% rémunération totale CDD, sauf CDI antérieur ou faute grave employeur."
+"152.Explications à compléter"
 "153.Entretien professionnel obligatoire tous les 2 ans, bilan tous les 6 ans (L6321-1)."
 "154.Clauses contractuelles (mobilité, non-concurrence, confidentialité) doivent être écrites, proportionnées, justifiées et avec contrepartie."
 "155.Durée maximale période d’essai : ouvrier/agent maîtrise=2/3mois, technicien=3mois, cadre=4mois, renouvellement possible si convention + clause écrite."
-"156.Cause réelle et sérieuse de licenciement personnel pour motif non-disciplinaire.La cause réelle et sérieuse est nécessaire pour procéder à un licenciement pour motif personnel non disciplinaire. Pour être valable, elle doit répondre à 3 critères :
-    elle doit être précise et vérifiable ;
-    elle doit reposer sur des faits réels ;
-    elle doit être suffisamment importante pour justifier un licenciement."
+"156.Cause réelle et sérieuse de licenciement personnel pour motif non-disciplinaire.La cause réelle et sérieuse est nécessaire pour procéder à un licenciement pour motif personnel non disciplinaire. Pour être valable, elle doit répondre à 3 critères :elle doit être précise et vérifiable ;elle doit reposer sur des faits réels ;elle doit être suffisamment importante pour justifier un licenciement."
 "157.L’inaptitude médicale au travail peut être prononcée par le médecin du travail lorsque l’état de santé (physique ou mentale) du salarié est devenu incompatible avec le poste qu’il occupe ; Avant de prendre cette décision, le médecin du travail doit réaliser au moins un examen médical du salarié concerné et procéder (ou faire procéder) à une étude de son poste de travail ;C’est uniquement s’il constate qu'aucune mesure d'aménagement, d'adaptation ou de transformation du poste de travail occupé n'est possible alors que l'état de santé du salarié justifie un changement de poste que le médecin du travail peut le déclarer inapte à son poste de travail ; L’avis d’inaptitude oblige l'employeur à rechercher un reclassement pour le salarié ;Néanmoins, l'employeur peut procéder au licenciement du salarié s’il est en mesure de justifier ;De son impossibilité à lui proposer un emploi compatible avec son état de santé ;Ou du refus par le salarié de l’emploi proposé.
 L’employeur peut également licencier le salarié si l’avis d’inaptitude mentionne expressément que tout maintien dans un emploi serait gravement préjudiciable à la santé de ce dernier ou que son état de santé fait obstacle à tout reclassement dans un emploi."
 "158.Convention collective applicable mentionnée sur contrat et bulletins (Art. R3243-1)."
 "159.Égalité salariale hommes/femmes obligatoire (Art. L3221-2, L3221-3)."
 "160.Visite médicale obligatoire pour CDI et CDD >3 mois, avant embauche ou retour long arrêt maladie."
 "161.Clauses spécifiques (non-concurrence, mobilité) = écrites, justifiées, proportionnées, compensation financière obligatoire."
-"162.Durée maximale CDD = 18-24 mois selon motif : accroissement temporaire, remplacement, travaux urgents, mission à l’étranger, saisonnier."
+"162.explications à compléter"
 "163.Préavis, indemnités, droits acquis = déterminés par durée présence, contrat, convention, loi."
 "164.Requalification CDD en CDI entraîne indemnité compensatrice, solde tout compte, certificat travail, attestation Pôle emploi, préavis selon cas."
 "165. Article L1242-5 du Code du travail : Il est interdit de conclure un CDD pour accroissement temporaire d’activité pendant les 6 mois suivant un licenciement économique sur le même poste.Donc la bonne durée ici est bien 6 mois. Durée maximale du CDD pour accroissement temporaire d’activité : Article L1242-8 et D1242-1 du Code du travail.Un CDD pour accroissement temporaire d’activité dure au maximum 18 mois (renouvellement inclus)."
@@ -1392,6 +1424,12 @@ Jusqu’au retour du salarié remplacé si le contrat est à terme imprécis (fi
 "167.La lettre doit indiquer l’objet de la convocation, la date/lieu/personne qui convoque, et la possibilité pour le salarié de se faire assister, et les adresses (mais non explicitements mentionnées comme obligatoire dans le code du travail)."
 "168. Au moins 5 jours ouvrables doivent séparer la remise (ou réception) de la convocation et la date de l’entretien. Réf : Article L1232-2 du Code du travail."
 "169.L’employeur doit attendre au moins 2 jours ouvrables avant d’envoyer la lettre de licenciement. Réf : Article L1232-6 du Code du travail."
+"170.A compléter"
+"171.En France, pour un CDI à temps plein, le contrat écrit n’est pas obligatoire selon le Code du travail. Cependant, l’employeur doit obligatoirement remettre au salarié un document écrit (appelé déclaration préalable à l’embauche ou contrat de travail) mentionnant les éléments essentiels de la relation de travail (salaire, poste, durée du travail, etc.), conformément à l’article L. 1221-13 du Code du travail."
+"172.La date de création du SMIG (Salaire Minimum Interprofessionnel Garanti) en France est 1950 (attention : devient le SMIC en 1970)."
+"173.Abrogation du délit de coalition : La loi Ollivier du 25 mai 1864 supprime le délit de coalition, qui datait de la Révolution française. Cela a permis aux ouvriers de se regrouper et de négocier collectivement, marquant une avancée sociale majeure .B) Participera à l'autorisation de faire grève : Cette même loi a restauré le droit de grève, bien que sous certaines conditions strictes (pas de violences, pas d'empêchement du travail des non-grévistes) ."
+"174. Toutes les affirmations sont vraies."
+"175. En France, le télétravail a été officiellement encadré par la loi en 2012, marquant une étape clé dans sa reconnaissance légale, bien que la pratique existait déjà depuis les années 1980. La durée légale du travail a été fixée à 39 heures en 1982, et non en 1989, suite à une ordonnance du gouvernement de Pierre Mauroy. Le Code du travail a été instauré en 1910, rassemblant pour la première fois les lois relatives au travail en un seul texte. Enfin, la loi de 1919 a instauré la journée de 8 heures, soit une semaine de 48 heures (6 jours x 8 heures), mais il s’agissait alors de la durée maximale, et non de la durée légale actuelle, qui est aujourd’hui de 35 heures."
 )
 
 # -----------------------------
@@ -1406,6 +1444,7 @@ echo "  Bienvenue sur ce programme spécialement conçu pour réviser et parfair
 echo "     >> Dates importantes"
 echo "     >> Hiérarchie des normes"
 echo "     >> Bases institutionnelles et principes fondamentaux"
+echo "     >> La liberté d'expression en droit du travail"
 echo ""
 echo "========================================================================================================================================================================================"
 echo "  Programme : Quiz.sh --  QCM interactif sur le Droit du Travail"
