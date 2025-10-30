@@ -1069,7 +1069,7 @@ A) 2012 instauration du télétravail
 B) 1982 Durée légale du travail fixée à 39 heures
 C) 1910 Instauration du code du travail.
 D) 1919 Durée légale du travail journalié 8 heures semaine fixée à 48 heures"
-
+)
 # -----------------------------
 # 2️ Réponses correctes
 # -----------------------------
