@@ -638,7 +638,7 @@ B) La liberté d’entreprendre sans limites
 C) Le droit au travail 
 D) L’égalité salariale uniquement" 
 
-"106. La Constitution de 1946 affirme que le droit au travail implique : 
+"106. Le préambule de la constitution de 1946 affirme que  : 
 A) Le devoir de travailler et le droit d’obtenir un emploi 
 B) L’obligation d’adhérer à un syndicat 
 C) La garantie d’un salaire égal pour tous les fonctionnaires uniquement 
@@ -647,7 +647,7 @@ D) La liberté d’expression sans restriction"
 "107. Qui proclame les principes fondamentaux reconnus par les lois de la République ? 
 A) Le Conseil constitutionnel 
 B) Le Premier ministre 
-C) L’Assemblée nationale 
+C) Le Conseil d'état
 D) Le Sénat" 
 
 "108. La liberté d’association est protégée par : 
@@ -837,10 +837,10 @@ C) Elles peuvent travailler dans la fonction publique
 D) Elles peuvent pas bénéficier de la protection sociale"
 
 "139. Le Préambule de la Constitution de 1946 reconnaît :
-A) Le droit de vote aux étrangers
+A) La liberté syndicale
 B) Le droit d’asile
 C) La liberté de porter des armes
-D) L’inviolabilité des entreprises"
+D) Le droit de grève"
 
 "140.Le Préambule de la constitution de 1946 affirme que :
 A) Le travail est un devoir et l’accès à l’emploi un droit
@@ -1069,6 +1069,47 @@ A) 2012 instauration du télétravail
 B) 1982 Durée légale du travail fixée à 39 heures
 C) 1910 Instauration du code du travail.
 D) 1919 Durée légale du travail journalié 8 heures semaine fixée à 48 heures"
+<<<<<<< HEAD
+=======
+
+"176.Dans le cadre d'un licenciement, la lettre de convocation à l'entretien:
+A) Peut être remise en main propre contre décharge.
+B) Envoyé en recommandé accusé récéption.
+C) Dois mentionner l'objet de la convocation (i.e le cadre (écnomique, personnel.)
+D) L'assistance du salarié est facultative "
+
+"177. La convention collective peut avoir une portée :
+A) Internationale
+B) Nationale
+C) Régionale
+D) Départementale"
+
+"178. Dans la procédure de licenciement économique: 
+A) Un délai de 7 jours ouvrables dois etre respecté entre la phase d'entretien et de notification
+B) Le délai est portée à 15 jours pour les cadres  pendant la phase 2 (entretien) et la phase 3(notification) de la procédure.
+C) L'employé à 21 jours pour acceptée le CSP qui permet d'avoir une indemnisation chomage majoré (75%)
+D) Le délai entre la phase 1 (convocation) et la phase 2(entretien) est de 5 jours comme pour le LIC pour motif personnel "
+
+"179. Le Conseil des prud'hommes: 
+A) Est compétent pour juger les litiges individuels du travail
+B) Est composés à part égales de représentants salariés et employeurs élus.
+C) Rend un jugement qui peut etre contesté devat la Cour d'appel.
+D) Juge uniquement le droit et non les faits."
+
+"180. La Cour d'Appel:
+A) Elle statue en premier ressort sur les litiges prud'homaux.
+B) Elle est composée uniquement de magistrats professionnels.
+C) Elle peut confirmer ou infirmer le jugement du Conseil de prud'hommes.
+D) Son arrêt peut faire l'objet d'un pourvoi en Cour de Cassation."
+
+"181.La Cour de cassation: 
+A) Elle rejuge le fond de l'affaire et les faits.
+B) Elle contrôle la conformité de la décision de la Cour d'appel au regard du droit.
+C) Elle peut casser une décision de la Cour d'appel et renvoyer l'affaire devant une nouvelle Cour d'appel. 
+D) Son arrêt est définitif si la Cour estime que la Cour d'appel à correctement appliqué le droit."
+
+"182."
+>>>>>>> 378f072 (addition of questions 170 to 180)
 )
 # -----------------------------
 # 2️ Réponses correctes
@@ -1180,7 +1221,7 @@ answers=(
 "A" #104
 "A" #105
 "A" #106
-"A" #107
+"AC" #107
 "A" #108
 "A" #109
 "A" #110
@@ -1212,7 +1253,7 @@ answers=(
 "B" #136	
 "B" #137
 "B" #138
-"B" #139
+"ABD" #139
 "A" #140
 "CD" #141
 "B" #142
@@ -1222,7 +1263,7 @@ answers=(
 "D" #146
 "A" #147
 "B" #148
-"ACD" #149
+"ABCD" #149
 "BCD" #150
 "A" #151
 "ACD" #152
@@ -1249,7 +1290,12 @@ answers=(
 "AB" #173
 "ABCD" #174
 "ABCD" #175
-
+"ABC" #176
+"BCD" #177
+"ABCD" #178 
+"ABC" #179
+"BCD" #180
+"BCD" #181
 )
 
 explanations=("1.Le CDI est le contrat de droit commun, contrairement au CDD qui est dérogatoire."
@@ -1324,10 +1370,10 @@ explanations=("1.Le CDI est le contrat de droit commun, contrairement au CDD qui
 "70.Salarié > 3 mois : légal pour délai de prévenance rupture période d'essai = 1 mois."
 "71.DUDH 1948 consacre droit à rémunération équitable."
 "72.L'entretien professionnel tous les 2 ans et bilan tous les 6 ans."
-"73.La clause de mobilité doit être écrite et préciser le secteur géographique."
+"73.La clause de mobilité doit être écrite et préciser le secteur géographique. En pratique c'est vrai pour le CDI comme pour le CDD"
 "74.Libre syndicale garantie par Code du travail, Préambule 1946 et DUDH."
 "75.Salarié absent < 8 jours : délai prévenance 24 h pour rupture période d'essai."
-"76.Clause de non-concurrence CDI doit être écrite."
+"76.Clause de non-concurrence CDI doit être écrite. En pratique il n'y en a pas pour les CDD."
 "77.Droit d'accès aux archives publiques = principe constitutionnel."
 "78.CDD de remplacement pour maternité = durée exacte absence salarié remplacé."
 "79.Égalité des droits pour femme = Préambule Constitution 1946."
@@ -1350,7 +1396,7 @@ explanations=("1.Le CDI est le contrat de droit commun, contrairement au CDD qui
 "96.Visite de reprise obligatoire si arrêt maladie > 30 jours."
 "97.Droit de grève garanti par Code du travail, Préambule 1946."
 "98.Période d’essai CDI renouvelable si convention prévoit et clause écrite."
-"99. CDI:24 h si présence < 8 jours, 48 h si présence > 8 jours Article L1221-25 du Code du travail
+"99.CDI:24 h si présence < 8 jours, 48 h si présence > 8 jours Article L1221-25 du Code du travail
 CDD:Le Code du travail ne fixe pas de délai précis pour le salarié. L’employeur et le salarié peuvent se mettre d’accord, ou le contrat peut prévoir un délai.	Article L1243-1 et L1243-3 : le CDD peut être rompu pendant la période d’essai selon ce qui est prévu dans le contrat, sans durée légale impérative pour le salarié."
 "100.Toute clause d’objectifs justifiant rupture doit être écrite et proportionnée"
 "101.Hiérarchie normes : loi prime sur décrets."
@@ -1391,47 +1437,52 @@ CDD:Le Code du travail ne fixe pas de délai précis pour le salarié. L’emplo
 "136.Conseil constitutionnel contrôle conformité lois avant promulgation (Art. 61). Depuis 2010 : QPC après promulgation."
 "137.Art. 55 Constitution : traités/accords internationaux ratifiés > lois, si appliqués par autre partie."
 "138.Préambule garantit égalité droits femmes/hommes."
-"139.Droit d’asile = principe fondamental."
+"139.Droit d’asile = principe fondamental. Le peuple réaffirme solennellement les droits et libertés de l'hommme et du citoyen consacrés par la déclaration de 1789."
 "140.Nul ne peut être lésé pour origines, opinions ou croyances."
 "141.Préambule 1946 : Liberté syndicale (création/adhésion), droit grève, réponses C et D fausses."
 "142.Insuffisance professionnelle = motif non disciplinaire licenciement (Art. L1232-1)."
-"143.L1226-2 : licenciement inaptitude possible si reclassement impossible."
-"144.Faute lourde = intention nuire, licenciement sans préavis/indemnité (Art. L1234-9)."
-"145.L1233-3 : licenciement économique = suppression/transformation emploi, difficultés économiques, mutation technologique."
-"146.L1233-5 : critères fixation licenciements économiques (âge, ancienneté, charges famille)."
-"147.Art. L1242-7 : CDD motif temporaire ou remplacement, durée maximale variable selon cas."
-"148.Art. L1242-8 : terme précis ou imprécis, prime précarité 10% sauf exceptions."
-"149.Art. L1243-1 : rupture anticipée CDD uniquement si faute grave, force majeure, accord parties, inaptitude."
-"150.Art. L1245-1 : requalification CDD en CDI si non-respect conditions légales."
+"143.L1226-2, licenciement inaptitude possible si reclassement impossible."
+"144.Faute lourde , intention nuire, licenciement sans préavis/indemnité (Art. L1234-9)."
+"145.L1233-3 , licenciement économique = suppression/transformation emploi, difficultés économiques, mutation technologique."
+"146.L1233-5 , critères fixation licenciements économiques (âge, ancienneté, charges famille)."
+"147.Art L1242 , CDD motif temporaire ou remplacement, durée maximale variable selon cas."
+"148.Art L1242 , terme précis ou imprécis, prime précarité 10% sauf exceptions."
+"149.Art L1243 , rupture anticipée CDD uniquement si faute grave, force majeure, accord parties, inaptitude."
+"150.Art L1245 , requalification CDD en CDI si non-respect conditions légales."
 "151.Prime précarité égale 10% rémunération totale CDD, sauf CDI antérieur ou faute grave employeur."
 "152.Explications à compléter"
 "153.Entretien professionnel obligatoire tous les 2 ans, bilan tous les 6 ans (L6321-1)."
 "154.Clauses contractuelles (mobilité, non-concurrence, confidentialité) doivent être écrites, proportionnées, justifiées et avec contrepartie."
 "155.Durée maximale période d’essai : ouvrier/agent maîtrise=2/3mois, technicien=3mois, cadre=4mois, renouvellement possible si convention + clause écrite."
 "156.Cause réelle et sérieuse de licenciement personnel pour motif non-disciplinaire.La cause réelle et sérieuse est nécessaire pour procéder à un licenciement pour motif personnel non disciplinaire. Pour être valable, elle doit répondre à 3 critères :elle doit être précise et vérifiable ;elle doit reposer sur des faits réels ;elle doit être suffisamment importante pour justifier un licenciement."
-"157.L’inaptitude médicale au travail peut être prononcée par le médecin du travail lorsque l’état de santé (physique ou mentale) du salarié est devenu incompatible avec le poste qu’il occupe ; Avant de prendre cette décision, le médecin du travail doit réaliser au moins un examen médical du salarié concerné et procéder (ou faire procéder) à une étude de son poste de travail ;C’est uniquement s’il constate qu'aucune mesure d'aménagement, d'adaptation ou de transformation du poste de travail occupé n'est possible alors que l'état de santé du salarié justifie un changement de poste que le médecin du travail peut le déclarer inapte à son poste de travail ; L’avis d’inaptitude oblige l'employeur à rechercher un reclassement pour le salarié ;Néanmoins, l'employeur peut procéder au licenciement du salarié s’il est en mesure de justifier ;De son impossibilité à lui proposer un emploi compatible avec son état de santé ;Ou du refus par le salarié de l’emploi proposé.
-L’employeur peut également licencier le salarié si l’avis d’inaptitude mentionne expressément que tout maintien dans un emploi serait gravement préjudiciable à la santé de ce dernier ou que son état de santé fait obstacle à tout reclassement dans un emploi."
+"157.L’inaptitude médicale au travail peut être prononcée par le médecin du travail lorsque l’état de santé (physique ou mentale) du salarié est devenu incompatible avec le poste qu’il occupe ; Avant de prendre cette décision, le médecin du travail doit réaliser au moins un examen médical du salarié concerné et procéder (ou faire procéder) à une étude de son poste de travail ;C’est uniquement s’il constate qu'aucune mesure d'aménagement, d'adaptation ou de transformation du poste de travail occupé n'est possible alors que l'état de santé du salarié justifie un changement de poste que le médecin du travail peut le déclarer inapte à son poste de travail ; L’avis d’inaptitude oblige l'employeur à rechercher un reclassement pour le salarié ;Néanmoins, l'employeur peut procéder au licenciement du salarié s’il est en mesure de justifier.
+De son impossibilité à lui proposer un emploi compatible avec son état de santé ;Ou du refus par le salarié de l’emploi proposé.L’employeur peut également licencier le salarié si l’avis d’inaptitude mentionne expressément que tout maintien dans un emploi serait gravement préjudiciable à la santé de ce dernier ou que son état de santé fait obstacle à tout reclassement dans un emploi."
 "158.Convention collective applicable mentionnée sur contrat et bulletins (Art. R3243-1)."
 "159.Égalité salariale hommes/femmes obligatoire (Art. L3221-2, L3221-3)."
-"160.Visite médicale obligatoire pour CDI et CDD >3 mois, avant embauche ou retour long arrêt maladie."
-"161.Clauses spécifiques (non-concurrence, mobilité) = écrites, justifiées, proportionnées, compensation financière obligatoire."
+"160.Visite médicale obligatoire pour CDI et CDD sup 3 mois, avant embauche ou retour long arrêt maladie."
+"161.Clauses spécifiques de non-concurrence, mobilité  = écrites, justifiées, proportionnées, compensation financière obligatoire."
 "162.explications à compléter"
 "163.Préavis, indemnités, droits acquis = déterminés par durée présence, contrat, convention, loi."
 "164.Requalification CDD en CDI entraîne indemnité compensatrice, solde tout compte, certificat travail, attestation Pôle emploi, préavis selon cas."
-"165. Article L1242-5 du Code du travail : Il est interdit de conclure un CDD pour accroissement temporaire d’activité pendant les 6 mois suivant un licenciement économique sur le même poste.Donc la bonne durée ici est bien 6 mois. Durée maximale du CDD pour accroissement temporaire d’activité : Article L1242-8 et D1242-1 du Code du travail.Un CDD pour accroissement temporaire d’activité dure au maximum 18 mois (renouvellement inclus)."
+"165.Article L1242-5 du Code du travail : Il est interdit de conclure un CDD pour accroissement temporaire d’activité pendant les 6 mois suivant un licenciement économique sur le même poste.Donc la bonne durée ici est bien 6 mois. Durée maximale du CDD pour accroissement temporaire d’activité : Article L1242-8 et D1242-1 du Code du travail.Un CDD pour accroissement temporaire d’activité dure au maximum 18 mois (renouvellement inclus)."
 "166.En cas de remplacement d’un salarié absent, la durée du CDD est de 18 mois maximum si le contrat est à terme précis (date de fin connue à l’avance) ;
 Jusqu’au retour du salarié remplacé si le contrat est à terme imprécis (fin de l’absence non déterminée). Référence : Article L1242-7 et D1242-1 du Code du travail."
 "167.La lettre doit indiquer l’objet de la convocation, la date/lieu/personne qui convoque, et la possibilité pour le salarié de se faire assister, et les adresses (mais non explicitements mentionnées comme obligatoire dans le code du travail)."
-"168. Au moins 5 jours ouvrables doivent séparer la remise (ou réception) de la convocation et la date de l’entretien. Réf : Article L1232-2 du Code du travail."
-"169.L’employeur doit attendre au moins 2 jours ouvrables avant d’envoyer la lettre de licenciement. Réf : Article L1232-6 du Code du travail."
+"168.Au moins 5 jours ouvrables doivent séparer la remise (ou réception) de la convocation et la date de l’entretien. Réf : Article L1232-2 du Code du travail."
+"169.Employeur doit attendre au moins 2 jours ouvrables avant d’envoyer la lettre de licenciement, cela permet de laisser un temps de réflexion. Réf : Article L1232-6 du Code du travail."
 "170.A compléter"
 "171.En France, pour un CDI à temps plein, le contrat écrit n’est pas obligatoire selon le Code du travail. Cependant, l’employeur doit obligatoirement remettre au salarié un document écrit (appelé déclaration préalable à l’embauche ou contrat de travail) mentionnant les éléments essentiels de la relation de travail (salaire, poste, durée du travail, etc.), conformément à l’article L. 1221-13 du Code du travail."
-"172.La date de création du SMIG (Salaire Minimum Interprofessionnel Garanti) en France est 1950 (attention : devient le SMIC en 1970)."
+"172.La date de création du SMIG (Salaire Minimum Interprofessionnel Garanti) en France est 1950 dans un contexte de reconstruction économique post-guerre  (attention : devient le SMIC en 1970). "
 "173.Abrogation du délit de coalition : La loi Ollivier du 25 mai 1864 supprime le délit de coalition, qui datait de la Révolution française. Cela a permis aux ouvriers de se regrouper et de négocier collectivement, marquant une avancée sociale majeure .B) Participera à l'autorisation de faire grève : Cette même loi a restauré le droit de grève, bien que sous certaines conditions strictes (pas de violences, pas d'empêchement du travail des non-grévistes) ."
-"174. Toutes les affirmations sont vraies."
-"175. En France, le télétravail a été officiellement encadré par la loi en 2012, marquant une étape clé dans sa reconnaissance légale, bien que la pratique existait déjà depuis les années 1980. La durée légale du travail a été fixée à 39 heures en 1982, et non en 1989, suite à une ordonnance du gouvernement de Pierre Mauroy. Le Code du travail a été instauré en 1910, rassemblant pour la première fois les lois relatives au travail en un seul texte. Enfin, la loi de 1919 a instauré la journée de 8 heures, soit une semaine de 48 heures (6 jours x 8 heures), mais il s’agissait alors de la durée maximale, et non de la durée légale actuelle, qui est aujourd’hui de 35 heures."
+"174.Toutes les affirmations sont vraies."
+"175.En France, le télétravail a été officiellement encadré par la loi en 2012, marquant une étape clé dans sa reconnaissance légale, bien que la pratique existait déjà depuis les années 1980. La durée légale du travail a été fixée à 39 heures en 1982, et non en 1989, suite à une ordonnance du gouvernement de Pierre Mauroy. Le Code du travail a été instauré en 1910, rassemblant pour la première fois les lois relatives au travail en un seul texte. Enfin, la loi de 1919 a instauré la journée de 8 heures, soit une semaine de 48 heures (6 jours x 8 heures), mais il s’agissait alors de la durée maximale, et non de la durée légale actuelle, qui est aujourd’hui de 35 heures."
+"176.La lettre de convocation est formelle et dois etre soit RAR soit remise en main propre contre décharge. Doit préciser l'objet de l'entretien.L'assistance du salarié est droit pas une obligation."
+"177.Le niveau nationale domine aujourd'hui, (CNN) elle s'applique dans tous le territoire à une branche donnée (la métallurgie par exemple). Elle peut être régionale par exemple le BTP (BTP Rhones Alpes),plus rarement départementale mais possible"
+"178.Dans la procédure de licenciement économique individuel, un délai minimal de 5 jours ouvrables doit séparer la convocation et l’entretien préalable (art. L1233-11), puis un délai de 7 jours ouvrables entre l’entretien et la notification pour les non-cadres, porté à 15 jours pour les cadres (art. L1233-15). Le salarié dispose ensuite de 21 jours pour accepter le Contrat de Sécurisation Professionnelle (CSP), qui lui ouvre droit à une indemnisation majorée équivalente à 75 % du salaire brut pendant 12 mois (art. L1233-67)."
+"179.Le Conseil de prud’hommes règle les litiges individuels entre salarié et employeur (salaire, licenciement, contrat, etc.). Il est composé par 2 représentants salariés et 2 employeurs dans le bureau de jugement.Ses décisions peuvent être contestées devant la Cour d’appel.Le Conseil de prud’hommes juge à la fois les faits et le droit."
+"180.Elle intervient en Appel jamais en première instance, elle est composée uniquement de magistrats professionnels, elle peut confirmer ou infirmer le jugement du conseil de prud'hommes. Son arrêt peut faire l'objet d'un pourvoir en cassation "
+"181.Elle vérifie que la Cour d'appel a appliqué correctement la loi. Si la décision de la COur d'Appel est contraire au droit, elle peut casser l'arrêt et renvoyer l'affaire en appel, si l'arrêt respecte le droit alors la décision devient définitive "
 )
-
 # -----------------------------
 # Mélange des questions
 # -----------------------------
@@ -1537,4 +1588,3 @@ echo "Score total : $score / $total"
 echo "Pourcentage de réussite sur le total : $pourcentage_total %"
 echo "Pourcentage de réussite sur l'exercice effectué : $pourcentage_cours %"
 echo "--------------------------------------------------"
-
