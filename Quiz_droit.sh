@@ -554,7 +554,7 @@ B) 2 mois
 C) 3 mois
 D) 4 mois"
 
-"92. Pour un CDD d’usage, le contrat doit :
+"92. Pour un CDD d'usage, le contrat doit :
 A) Mentionner expressément le caractère d’usage
 B) Être signé uniquement par l’employeur
 C) Préciser la rémunération seulement
@@ -1069,8 +1069,6 @@ A) 2012 instauration du télétravail
 B) 1982 Durée légale du travail fixée à 39 heures
 C) 1910 Instauration du code du travail.
 D) 1919 Durée légale du travail journalié 8 heures semaine fixée à 48 heures"
-<<<<<<< HEAD
-=======
 
 "176.Dans le cadre d'un licenciement, la lettre de convocation à l'entretien:
 A) Peut être remise en main propre contre décharge.
@@ -1108,8 +1106,11 @@ B) Elle contrôle la conformité de la décision de la Cour d'appel au regard du
 C) Elle peut casser une décision de la Cour d'appel et renvoyer l'affaire devant une nouvelle Cour d'appel. 
 D) Son arrêt est définitif si la Cour estime que la Cour d'appel à correctement appliqué le droit."
 
-"182."
->>>>>>> 378f072 (addition of questions 170 to 180)
+"182. Concernant le renouvellement de la période d'essai:
+A) Il est possible qu'importe la nature du contrat du moment qu'une convention collective le prévoit.
+B) Il faut qu'une clause de renouvellement soit dans le contrat de travail.
+C) La durée de renouvellement doit être au plus égale à la durée initiale
+D) Si prévu par la convention,  la loi de modernisation sociale de 2008 est l'une des sources de réglementation de la PE "
 )
 # -----------------------------
 # 2️ Réponses correctes
@@ -1296,6 +1297,7 @@ answers=(
 "ABC" #179
 "BCD" #180
 "BCD" #181
+"BCD" #182
 )
 
 explanations=("1.Le CDI est le contrat de droit commun, contrairement au CDD qui est dérogatoire."
@@ -1482,6 +1484,9 @@ Jusqu’au retour du salarié remplacé si le contrat est à terme imprécis (fi
 "179.Le Conseil de prud’hommes règle les litiges individuels entre salarié et employeur (salaire, licenciement, contrat, etc.). Il est composé par 2 représentants salariés et 2 employeurs dans le bureau de jugement.Ses décisions peuvent être contestées devant la Cour d’appel.Le Conseil de prud’hommes juge à la fois les faits et le droit."
 "180.Elle intervient en Appel jamais en première instance, elle est composée uniquement de magistrats professionnels, elle peut confirmer ou infirmer le jugement du conseil de prud'hommes. Son arrêt peut faire l'objet d'un pourvoir en cassation "
 "181.Elle vérifie que la Cour d'appel a appliqué correctement la loi. Si la décision de la COur d'Appel est contraire au droit, elle peut casser l'arrêt et renvoyer l'affaire en appel, si l'arrêt respecte le droit alors la décision devient définitive "
+"182. Le renouvellement doit être prévu par une clause écrite dans le contrat de travail ou une convention collective, conformément au Code du travail (art. L1221-23).La durée du renouvellement ne peut excéder la durée initiale (art. L1221-21), sous peine de nullité.Les modalités de renouvellement, lorsqu’elles sont prévues par une convention collective, 
+s’inscrivent dans le cadre légal issu notamment de la loi de modernisation sociale de 2008 et du Code du travail."
+
 )
 # -----------------------------
 # Mélange des questions
@@ -1539,32 +1544,53 @@ for i in "${shuffled_indices[@]}"; do
     user_answer=$(echo "$user_answer" | tr 'a-z' 'A-Z') #Gestion de la casse
 
     if [[ "$user_answer" == "${answers[$i]}" ]]; then
-        echo " Correct !"
+		clear
+		    echo "-----------------------------------------------------------------------------------------------------------------------------------------------"
+		    echo "Correct ! Réponse : "
+			echo ""
+		    echo "QUESTION $i --  REPONSE ${answers[$i]},    INFO : ${explanations[$i]}"
+		    echo "-----------------------------------------------------------------------------------------------------------------------------------------------" 
+		    echo "Next ..."
+		
+		    echo ""
+		    
+		    
         ((good++))
         score=$(echo "$score + 1" | bc)
+        
     else
-        echo "Incorrect ! La bonne réponse était ${answers[$i]}"
+    	clear
+        	echo "-----------------------------------------------------------------------------------------------------------------------------------------------"
+			echo "Incorrect ! La bonne réponse était ${answers[$i]}"
+			echo ""
+			echo "QUESTION $i --  REPONSE ${answers[$i]},    INFO : ${explanations[$i]}"
+			echo "-----------------------------------------------------------------------------------------------------------------------------------------------" 
+			echo "Next ..."
+					
+			echo ""
+					    
         ((bad++))
         score=$(echo "$score - 0.5" | bc)
         # Empêche score négatif(ergonomie)
         score=$(echo "if ($score < 0) 0 else $score" | bc)
     fi
+    
 
-    echo "Explication : ${explanations[$i]}"
-
+    
     # Affichage d'une progression toutes les 10 questions pour l'utilisateur
     if (( question_num % 10 == 0 || question_num == total )); then
         questions_passees=$((good + bad))
         pourcentage_total=$(echo "scale=2; ($score / $total) * 100" | bc)
         pourcentage_cours=$(echo "scale=2; ($good / $questions_passees) * 100" | bc)
+        clear
 
         echo
-        echo "--------------------------------------------------"
+        echo "-----------------------------------------------------------------------------------------------------------------------------------------------"
         echo "Progression : $question_num / $total questions terminées"
         echo "Score actuel : $score / $total"
         echo "Pourcentage de réussite sur le total : $pourcentage_total %"
         echo "Pourcentage de réussite sur l'exercice effectué : $pourcentage_cours %"
-        echo "--------------------------------------------------"
+        echo "-----------------------------------------------------------------------------------------------------------------------------------------------"
         echo
     fi
 
