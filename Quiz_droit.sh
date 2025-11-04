@@ -317,7 +317,7 @@ D) Seulement pour les contrats saisonniers"
 "52. La visite médicale pour un salarié en CDI à temps partiel est obligatoire :
 A) Oui, systématiquement
 B) Non, jamais
-C) Seulement si le poste présente un risque
+C) Seulement si le poste présente un risqueanan
 D) Seulement si le salarié le demande"
 
 "53. La période d’essai d’un cadre peut être interrompue par l’employeur avec un préavis légal de :
@@ -1037,8 +1037,7 @@ Invalidité : reconnue par le médecin-conseil de la Sécurité sociale ;
 Inaptitude : décidée par le médecin du travail après examen du salarié.
 D)
 Invalidité est une notion interne à l’entreprise ;
-Inaptitude ne peut être prononcée qu’après un licenciement.
-"
+Inaptitude ne peut être prononcée qu’après un licenciement."
 
 "171.Quelles sont les bonnes réponses conçernant la forme du contrat : 
 A) Contrat écrit non obligatoire pour le CDI à Temps plein
@@ -1084,7 +1083,7 @@ D) Départementale"
 
 "178. Dans la procédure de licenciement économique: 
 A) Un délai de 7 jours ouvrables dois etre respecté entre la phase d'entretien et de notification
-B) Le délai est portée à 15 jours pour les cadres  pendant la phase 2 (entretien) et la phase 3(notification) de la procédure.
+B) Le délai est portée à 15 jours pour les cadres entre la phase 2 (entretien) et la phase 3(notification) de la procédure.
 C) L'employé à 21 jours pour acceptée le CSP qui permet d'avoir une indemnisation chomage majoré (75%)
 D) Le délai entre la phase 1 (convocation) et la phase 2(entretien) est de 5 jours comme pour le LIC pour motif personnel "
 
@@ -1111,6 +1110,44 @@ A) Il est possible qu'importe la nature du contrat du moment qu'une convention c
 B) Il faut qu'une clause de renouvellement soit dans le contrat de travail.
 C) La durée de renouvellement doit être au plus égale à la durée initiale
 D) Si prévu par la convention,  la loi de modernisation sociale de 2008 est l'une des sources de réglementation de la PE "
+
+"183.Qu’est-ce qui pourrait justifier / motiver le non-respect par le salarié de ce qui lui est demandé ?
+A) Une demande illicite, vexatoire ou immorale. 
+B) L'exercice du droit de retrait
+C) L'exercice du droit de grêve
+D) Quid de l'incarcération du salarié, ou du retrait de permis ?"
+
+"184 Sont des obligations du salarié :
+A) Obligation de loyauté, le contrat de travail est exécuté de bonne fois article 1222-1 c.trav 
+B) Obligation de discrétion jusqu'a remettre en cause sa liberté d'expression.
+C) L'Obligation de discrétion est corollaire de l'obligation de loyauté.
+D) Interdiction de divulger des informations confidentielles dans l'exercice de ces fonctions. "
+
+"185. Source de droit dans la liberté d'expression : 
+A) La Déclaration des Droits de L'Homme et du Citoyen du 26 août 1789
+B) Le préambule de la Déclaration Universelle des Droits de l'Homme du 10 décembre 1948
+C) Article 19 de la Déclaration Universelle de 1948 
+D) L'article 10 de la Convention Européenne des Droits de l'Homme"
+
+"186. Dans sa décision du  27 juillet 1982, le Conseil constitutionnel  à créer la notion d'objectif à valeur constitutionnel qui sont ni des lois ni des libertés. 
+Ce dernier les tirent de la lecture de la constitution (1958), de la DDHC (1789), le préambule de (1946). Parmis les choix suivants lesquels en font partie:
+A) La sauvegarde de l'ordre public.
+B) Le respect de la liberté d'autrui.
+C) La transparence financière des entreprises de presse.
+D) La protection de la santé publique."
+
+"187. Sont des objectifs à valeur constitutionnel:
+A) La recherche des auteurs d'infractions
+B) La lutte contre la fraude fiscale
+C) La possibilité pour toute personne de disposer d'un logement décent
+D) L'accessibilité et l'intelligibilité de la loi"
+
+"188. Sont des objectifs à valeur constitutionnel:
+A) L'équilibre financier de la sécurité sociale.
+B) L'égal accès  des femmes et des hommes aux mandats electoraux et fonctions électives.
+C) L'égalité entre les collectivités térritoriales.
+D) La clarté de la loi."
+
 )
 # -----------------------------
 # 2️ Réponses correctes
@@ -1298,6 +1335,13 @@ answers=(
 "BCD" #180
 "BCD" #181
 "BCD" #182
+"ABCD" #183
+"ABD" #184
+"ABCD" #185
+"ABCD" #186
+"ABCD" #187
+"ABCD" #188
+
 )
 
 explanations=("1.Le CDI est le contrat de droit commun, contrairement au CDD qui est dérogatoire."
@@ -1467,8 +1511,7 @@ De son impossibilité à lui proposer un emploi compatible avec son état de san
 "163.Préavis, indemnités, droits acquis = déterminés par durée présence, contrat, convention, loi."
 "164.Requalification CDD en CDI entraîne indemnité compensatrice, solde tout compte, certificat travail, attestation Pôle emploi, préavis selon cas."
 "165.Article L1242-5 du Code du travail : Il est interdit de conclure un CDD pour accroissement temporaire d’activité pendant les 6 mois suivant un licenciement économique sur le même poste.Donc la bonne durée ici est bien 6 mois. Durée maximale du CDD pour accroissement temporaire d’activité : Article L1242-8 et D1242-1 du Code du travail.Un CDD pour accroissement temporaire d’activité dure au maximum 18 mois (renouvellement inclus)."
-"166.En cas de remplacement d’un salarié absent, la durée du CDD est de 18 mois maximum si le contrat est à terme précis (date de fin connue à l’avance) ;
-Jusqu’au retour du salarié remplacé si le contrat est à terme imprécis (fin de l’absence non déterminée). Référence : Article L1242-7 et D1242-1 du Code du travail."
+"166.En cas de remplacement d’un salarié absent, la durée du CDD est de 18 mois maximum si le contrat est à terme précis (date de fin connue à l’avance) ;Jusqu’au retour du salarié remplacé si le contrat est à terme imprécis (fin de l’absence non déterminée). Référence : Article L1242-7 et D1242-1 du Code du travail."
 "167.La lettre doit indiquer l’objet de la convocation, la date/lieu/personne qui convoque, et la possibilité pour le salarié de se faire assister, et les adresses (mais non explicitements mentionnées comme obligatoire dans le code du travail)."
 "168.Au moins 5 jours ouvrables doivent séparer la remise (ou réception) de la convocation et la date de l’entretien. Réf : Article L1232-2 du Code du travail."
 "169.Employeur doit attendre au moins 2 jours ouvrables avant d’envoyer la lettre de licenciement, cela permet de laisser un temps de réflexion. Réf : Article L1232-6 du Code du travail."
@@ -1486,6 +1529,15 @@ Jusqu’au retour du salarié remplacé si le contrat est à terme imprécis (fi
 "181.Elle vérifie que la Cour d'appel a appliqué correctement la loi. Si la décision de la COur d'Appel est contraire au droit, elle peut casser l'arrêt et renvoyer l'affaire en appel, si l'arrêt respecte le droit alors la décision devient définitive "
 "182. Le renouvellement doit être prévu par une clause écrite dans le contrat de travail ou une convention collective, conformément au Code du travail (art. L1221-23).La durée du renouvellement ne peut excéder la durée initiale (art. L1221-21), sous peine de nullité.Les modalités de renouvellement, lorsqu’elles sont prévues par une convention collective, 
 s’inscrivent dans le cadre légal issu notamment de la loi de modernisation sociale de 2008 et du Code du travail."
+"183. "
+"184. Obligation de discrétion: Obligation intrinsèque du contrat de travail ;Corollaire de l’obligation de loyauté ; Le salarié ne doit pas divulguer des informations confidentielles dont il a connaissance dans l’exercice de ses fonctions ;Cette obligation ne remet pas en cause la liberté d’expression du
+salarié. Obligation de loyauté: Art. L. 1222-1 c.trav « Le contrat de travail est exécuté de bonne foi. » S’abstenir de tout acte contraire à l’intérêt de l’entreprise (ex : non-
+concurrence). S’abstenir de tout acte moralement ou pénalement répréhensible (ex :fraude, vol, détournement)"
+"185. La Déclaration des Droits de L'Homme et du Citoyen du 26 août 1789 consacre « les droits naturels, inaliénables et sacrés de l'Homme » dans son préambule. Ces droits inaliénables sont la liberté, la propriété, la sûreté et la résistance à l'oppression. Le préambule de la Déclaration Universelle des Droits de l'Homme du 10 décembre 1948
+dispose :« Considérant que la méconnaissance et le mépris des droits de l'homme ont conduit à des actes de barbarie qui révoltent la conscience de l'humanité et que l'avènement d'un monde où les êtres humains seront libres de parler et de croire, libérés de la terreur et de la misère, a été proclamé comme la plus belle aspiration de l'homme ». "
+"186.Notion créée par le Conseil Constitutionnel dans une décision du 27 juillet 1982 (n°82-141). Ce ne sont ni des droits ni des libertés. Ce sont des objectifs que le Conseil Constitutionnel tire de la lecture de la Constitution, la DDHC ou le préambule de 1946"
+"187.Notion créée par le Conseil Constitutionnel dans une décision du 27 juillet 1982 (n°82-141). Ce ne sont ni des droits ni des libertés. Ce sont des objectifs que le Conseil Constitutionnel tire de la lecture de la Constitution, la DDHC ou le préambule de 1946"
+"188.Notion créée par le Conseil Constitutionnel dans une décision du 27 juillet 1982 (n°82-141). Ce ne sont ni des droits ni des libertés. Ce sont des objectifs que le Conseil Constitutionnel tire de la lecture de la Constitution, la DDHC ou le préambule de 1946"
 
 )
 # -----------------------------
@@ -1519,8 +1571,8 @@ echo "     - de conserver la présente licence et les mentions légales."
 echo ""
 echo "  Toute violation de ces conditions constitue une contrefaçon au sens des articles L335-2 et suivants du Code de la Propriété Intellectuelle."
 echo ""
-echo "  Citation suggérée : « Mickael Coquerelle (Université de Montpellier - CHU de Nîmes),"
-echo "    QCMployé.sh – QCM de Droit du Travail (version 1.0), 2025 "
+echo "  Citation suggérée : « Mickael Coquerelle (Ancien étudiant Master Bioinformatique - Université de Montpellier - Ingénieur CHU de Nîmes),"
+echo "    Quiz_droit.sh – QCM de Droit du Travail (version 2.0), Novembre 2025 "
 echo "----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------"
 echo "   « Nul n’est censé ignorer la loi… sauf à la question 12. »"
 echo "----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------"
@@ -1550,6 +1602,7 @@ for i in "${shuffled_indices[@]}"; do
 			echo ""
 		    echo "QUESTION $i --  REPONSE ${answers[$i]},    INFO : ${explanations[$i]}"
 		    echo "-----------------------------------------------------------------------------------------------------------------------------------------------" 
+			sleep 2s
 		    echo "Next ..."
 		
 		    echo ""
@@ -1565,6 +1618,7 @@ for i in "${shuffled_indices[@]}"; do
 			echo ""
 			echo "QUESTION $i --  REPONSE ${answers[$i]},    INFO : ${explanations[$i]}"
 			echo "-----------------------------------------------------------------------------------------------------------------------------------------------" 
+			sleep 2s
 			echo "Next ..."
 					
 			echo ""
