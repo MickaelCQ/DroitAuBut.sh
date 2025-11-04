@@ -1148,6 +1148,11 @@ B) L'égal accès  des femmes et des hommes aux mandats electoraux et fonctions 
 C) L'égalité entre les collectivités térritoriales.
 D) La clarté de la loi."
 
+"189. Sont des normes européennes en droit du travail:
+A) La Convention Européenne des Droits de l'Homme de 1950 [Conseil de l'europe]
+B) La Charte Sociale Européenne de 1961 (modifiée en 1996) [Conseil de l'europe]
+C) Charte des droits fondamentaux de l'Union Européenne de 2000 (Traité de Lisbonne) [Union Européenne]
+D) La Constitution européenne du travailleur."
 )
 # -----------------------------
 # 2️ Réponses correctes
@@ -1341,7 +1346,7 @@ answers=(
 "ABCD" #186
 "ABCD" #187
 "ABCD" #188
-
+"ABC" #189
 )
 
 explanations=("1.Le CDI est le contrat de droit commun, contrairement au CDD qui est dérogatoire."
@@ -1538,7 +1543,7 @@ dispose :« Considérant que la méconnaissance et le mépris des droits de l'ho
 "186.Notion créée par le Conseil Constitutionnel dans une décision du 27 juillet 1982 (n°82-141). Ce ne sont ni des droits ni des libertés. Ce sont des objectifs que le Conseil Constitutionnel tire de la lecture de la Constitution, la DDHC ou le préambule de 1946"
 "187.Notion créée par le Conseil Constitutionnel dans une décision du 27 juillet 1982 (n°82-141). Ce ne sont ni des droits ni des libertés. Ce sont des objectifs que le Conseil Constitutionnel tire de la lecture de la Constitution, la DDHC ou le préambule de 1946"
 "188.Notion créée par le Conseil Constitutionnel dans une décision du 27 juillet 1982 (n°82-141). Ce ne sont ni des droits ni des libertés. Ce sont des objectifs que le Conseil Constitutionnel tire de la lecture de la Constitution, la DDHC ou le préambule de 1946"
-
+"189.La CEDH edite la protection des droits civiques. La charte sociale de 1961 édite la protection des droits sociaux. La charte des droits fondamentaux de l'Union européenne de 2000 répertorie les droits des personnes dans l'UE"
 )
 # -----------------------------
 # Mélange des questions
@@ -1564,9 +1569,7 @@ echo "  Ce programme est protégé par le Code de la Propriété Intellectuelle,
 echo "  « Toute représentation ou reproduction intégrale ou partielle faite sans le consentement de l’auteur est illicite. »"
 echo ""
 echo "  >> Partage autorisé UNIQUEMENT sous réserve :"
-echo "     - de citer clairement le nom de l’auteur ;"
-echo "     - de ne pas modifier le contenu du programme sans autorisation"
-echo "       écrite préalable de l’auteur ;"
+echo "     - de citer clairement le nom de l’auteur  ;"
 echo "     - de conserver la présente licence et les mentions légales."
 echo ""
 echo "  Toute violation de ces conditions constitue une contrefaçon au sens des articles L335-2 et suivants du Code de la Propriété Intellectuelle."
@@ -1578,7 +1581,6 @@ echo "   « Nul n’est censé ignorer la loi… sauf à la question 12. »"
 echo "----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------"
 echo " Ecrire vos réponses sans espace exemple : B, ACD ou acd et appuyer sur la toucher entrée"
 echo "#########################################################################################################################################################################################"
-
 # -----------------------------
 # Boucle principale
 # -----------------------------
